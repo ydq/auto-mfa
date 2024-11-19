@@ -131,7 +131,7 @@ onMounted(async () => {
     <div v-else class="empty">
         使用下列任意方式添加 MFA 配置
         <ul>
-            <li>点击右上角 <kbd>◎</kbd> 按钮</li>
+            <li>点击右上角 <kbd>◎</kbd> 按钮选择图片</li>
             <li>复制文件或截图后使用快捷键粘贴</li>
             <li>拖放二维码图片文件至本窗口</li> 
         </ul>

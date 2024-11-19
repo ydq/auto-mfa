@@ -1,5 +1,16 @@
 import OTP from 'otp'
 
+const func = otp => {
+    let dom = document.activeElement;
+    while (dom.tagName == 'IFRAME' || dom.tagName == 'FRAME') {
+        dom = dom.contentDocument.activeElement;
+    }
+    dom.value = otp;
+    //部分框架双向数据绑定，直接设置元素的值还不行，需要触发一下 input 或者 change 事件
+    dom.dispatchEvent(new Event('input', { bubbles: true }));
+    dom.dispatchEvent(new Event('change', { bubbles: true }));
+}
+
 const initCtxMenu = async otps => {
     await chrome.contextMenus.removeAll()
     otps.forEach(async ({ id, title }) => {
@@ -11,10 +22,11 @@ const initCtxMenu = async otps => {
         })
     })
     chrome.contextMenus.onClicked.addListener(async (info, tab) => {
-        try {
-            await chrome.tabs.sendMessage(tab.id, new OTP({ secret: info.menuItemId }).totp())
-        } catch (e) {
-        }
+        chrome.scripting.executeScript({
+            args:[new OTP({ secret: info.menuItemId }).totp()],
+            target: { tabId: tab.id },
+            func
+        })
     })
 }
 

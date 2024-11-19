@@ -19,7 +19,7 @@ const commonCfg = defineConfig({
     build: {
         target: "esnext",
         rollupOptions: {
-            input: ["index.html", "src/chrome/background.js", "src/chrome/contentScript.js"],
+            input: ["index.html", "src/chrome/background.js"],
             output: {
                 chunkFileNames: "assets/[name].[hash].js",
                 assetFileNames: "assets/[name].[hash].[ext]",

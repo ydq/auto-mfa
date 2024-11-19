@@ -15,24 +15,11 @@
     "permissions": [
         "contextMenus",
         "storage",
-        "tabs",
-        "nativeMessaging"
+        "activeTab",
+        "scripting"
     ],
     "background": {
-        "matches": [
-            "*://*/*"
-        ],
         "service_worker": "background.js",
         "type": "module"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*/*"
-            ],
-            "js": [
-                "contentScript.js"
-            ]
-        }
-    ]
+    }
 }
