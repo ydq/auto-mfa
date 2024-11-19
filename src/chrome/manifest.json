@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "AUTO-MFA",
+    "description": "auto mfa (Multi Factor Authentication)",
+    "version": "0.0.0.2",
+    "author": "ydq",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "tabs",
+        "nativeMessaging"
+    ],
+    "background": {
+        "matches": [
+            "*://*/*"
+        ],
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}

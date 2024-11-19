@@ -1,0 +1,21 @@
+{
+  "name": "auto-mfa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --mode watch",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "otp": "^1.1.2",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "rollup-plugin-copy": "^3.5.0",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.10"
+  }
+}
