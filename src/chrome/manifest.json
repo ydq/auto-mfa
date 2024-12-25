@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "AUTO-MFA",
     "description": "auto mfa (Multi Factor Authentication)",
-    "version": "0.0.0.2",
+    "version": "0.0.0.3",
     "author": "ydq",
     "icons": {
         "16": "icon.png",
