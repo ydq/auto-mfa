@@ -1,27 +1,23 @@
-import { reactive, readonly, ref, watch } from "vue"
+import { readonly, ref, watch } from "vue"
 
-const clean = async _ => await chrome.storage.sync.clear()
 const getStorage = async _ => await chrome.storage.sync.get()
 const setStorage = async store => await chrome.storage.sync.set(store)
 
 const otps = ref([])
-
+otps.value = (await getStorage())?.list ?? []
 
 watch(otps, async _ => {
     await setStorage({ list:[...otps.value] })
 }, { deep: true })
 
-
-export const useAppStore = () => {
+export const useOtpStore = () => {
     return {
         otps: readonly(otps),
-        clean,
-        async init() {
-            let store = await getStorage()
-            otps.value = store.list ?? []
+        async clean(){
+            await chrome.storage.sync.clear()
         },
-        add(obj) {
-            otps.value.push(obj)
+        add(otp) {
+            otps.value.push(otp)
         },
         del(i) {
             otps.value.splice(i, 1)

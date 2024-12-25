@@ -7,7 +7,14 @@ import copy from "rollup-plugin-copy"
 const commonCfg = defineConfig({
     plugins: [
         vue(),
-        Components(),
+        Components({
+            resolvers: [
+                name => {
+                    if (name.startsWith('Lew'))
+                        return { name, from: 'lew-ui' }
+                },
+            ]
+        }),
         copy({
             targets: [
                 { src: "src/chrome/manifest.json", dest: "dist" },

@@ -1,14 +1,14 @@
 import OTP from 'otp'
 
 const func = otp => {
-    let dom = document.activeElement;
+    let dom = document.activeElement
     while (dom.tagName == 'IFRAME' || dom.tagName == 'FRAME') {
-        dom = dom.contentDocument.activeElement;
+        dom = dom.contentDocument.activeElement
     }
-    dom.value = otp;
+    dom.value = otp
     //部分框架双向数据绑定，直接设置元素的值还不行，需要触发一下 input 或者 change 事件
-    dom.dispatchEvent(new Event('input', { bubbles: true }));
-    dom.dispatchEvent(new Event('change', { bubbles: true }));
+    dom.dispatchEvent(new Event('input', { bubbles: true }))
+    dom.dispatchEvent(new Event('change', { bubbles: true }))
 }
 
 const initCtxMenu = async otps => {
@@ -19,13 +19,6 @@ const initCtxMenu = async otps => {
             id,
             title,
             contexts: ['editable']
-        })
-    })
-    chrome.contextMenus.onClicked.addListener(async (info, tab) => {
-        chrome.scripting.executeScript({
-            args:[new OTP({ secret: info.menuItemId }).totp()],
-            target: { tabId: tab.id },
-            func
         })
     })
 }
@@ -39,4 +32,13 @@ chrome.storage.onChanged.addListener(async (changes, namespace) => {
 //初始化菜单
 chrome.storage.sync.get().then(async otps => {
     await initCtxMenu(otps.list ?? [])
+})
+
+//给右键菜单绑定事件
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+    chrome.scripting.executeScript({
+        args:[new OTP({ secret: info.menuItemId }).totp()],
+        target: { tabId: tab.id },
+        func
+    })
 })
