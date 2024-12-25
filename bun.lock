@@ -3,16 +3,17 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "jsqr": "^1.4.0",
-        "lew-ui": "^2.5.3",
-        "otp": "^1.1.2",
-        "vue": "^3.5.13",
+        "jsqr": "latest",
+        "lew-ui": "latest",
+        "lucide-vue-next": "latest",
+        "otp": "latest",
+        "vue": "latest",
       },
       "devDependencies": {
-        "@vitejs/plugin-vue": "^5.2.1",
-        "rollup-plugin-copy": "^3.5.0",
-        "unplugin-vue-components": "^0.28.0",
-        "vite": "^6.0.5",
+        "@vitejs/plugin-vue": "latest",
+        "rollup-plugin-copy": "latest",
+        "unplugin-vue-components": "latest",
+        "vite": "latest",
       },
     },
   },
@@ -267,7 +268,7 @@
 
     "lodash-es": ["lodash-es@4.17.21", "https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz", {}, "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="],
 
-    "lucide-vue-next": ["lucide-vue-next@0.441.0", "https://registry.npmmirror.com/lucide-vue-next/-/lucide-vue-next-0.441.0.tgz", { "peerDependencies": { "vue": ">=3.0.1" } }, "sha512-WaPNRjH5O74mD3hVgKB4HtMYsjAuQSuOcNAeK8h6s8GqySkpsBnd2tmuc+EooNkogNv6l8UNmwgBANZVZ6SHqQ=="],
+    "lucide-vue-next": ["lucide-vue-next@0.469.0", "https://registry.npmmirror.com/lucide-vue-next/-/lucide-vue-next-0.469.0.tgz", { "peerDependencies": { "vue": ">=3.0.1" } }, "sha512-EjOap+vY3xEzCMrnaccDHO4BH3k3Lr+sOyvzRQCaayYxkxKla0w6Jr4h3cHAzA4vMSp63Dcy7vDiGeCPcCY+Gg=="],
 
     "magic-string": ["magic-string@0.30.15", "https://registry.npmmirror.com/magic-string/-/magic-string-0.30.15.tgz", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0" } }, "sha512-zXeaYRgZ6ldS1RJJUrMrYgNJ4fdwnyI6tVqoiIhyCyv5IVTK9BU8Ic2l253GGETQHxI4HNUwhJ3fjDhKqEoaAw=="],
 
@@ -374,6 +375,8 @@
     "anymatch/picomatch": ["picomatch@2.3.1", "https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 
     "glob/minimatch": ["minimatch@3.1.2", "https://registry.npmmirror.com/minimatch/-/minimatch-3.1.2.tgz", { "dependencies": { "brace-expansion": "^1.1.7" } }, "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw=="],
+
+    "lew-ui/lucide-vue-next": ["lucide-vue-next@0.441.0", "https://registry.npmmirror.com/lucide-vue-next/-/lucide-vue-next-0.441.0.tgz", { "peerDependencies": { "vue": ">=3.0.1" } }, "sha512-WaPNRjH5O74mD3hVgKB4HtMYsjAuQSuOcNAeK8h6s8GqySkpsBnd2tmuc+EooNkogNv6l8UNmwgBANZVZ6SHqQ=="],
 
     "micromatch/picomatch": ["picomatch@2.3.1", "https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 

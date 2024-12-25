@@ -28,8 +28,13 @@ const test = ref('')
               y="start"
               mode="between"
               style="min-height: 200px;">
-        <otp-item v-if="otps.length"
-                  :otps />
+        <lew-flex direction="y"
+                  x="center"
+                  y="start"
+                  v-if="otps.length"
+                  style="position:relative">
+            <otp-item :otps />
+        </lew-flex>
         <lew-empty v-else
                    type="likes"
                    title="请先添加配置" />
@@ -37,5 +42,4 @@ const test = ref('')
     </lew-flex>
 </template>
 
-<style>
-</style>
+<style></style>
