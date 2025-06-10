@@ -1,5 +1,8 @@
 ## AUTO-MFA Chrome Extension
 
+### 安装 / Install
+[Google Chrome](https://chromewebstore.google.com/detail/auto-mfa/iffhgapiplhilmdggnmlndnpbhcjokpe?authuser=0&hl=zh-CN)
+
 ### 使用说明
 
 感谢您使用本插件！本插件旨在帮助您更轻松地完成两步验证的验证码生成和快速填充。以下是详细的使用步骤：
@@ -12,7 +15,7 @@
 
 #### 使用步骤
 1. 安装插件
-    - 从 Chrome 网上应用店安装插件，并确保插件已启用。
+    - [从 Chrome 网上应用店安装插件](https://chromewebstore.google.com/detail/auto-mfa/iffhgapiplhilmdggnmlndnpbhcjokpe?authuser=0&hl=zh-CN)，并确保插件已启用。
 2. 添加 OTP 信息
     - 在您登录需要两步验证的网站时，获取对应的 OTP 二维码。
     - 右键点击二维码，选择插件提供的“识别 OTP 二维码”功能。
@@ -58,7 +61,7 @@ Thank you for using this extension! This tool is designed to simplify two-factor
 #### How to Use
 
 1. Install the Extension
-    - Install the extension from the Chrome Web Store and ensure it is enabled.
+    - [Install the extension from the Chrome Web Store](https://chromewebstore.google.com/detail/auto-mfa/iffhgapiplhilmdggnmlndnpbhcjokpe?authuser=0&hl=zh-CN) and ensure it is enabled.
 2. Add OTP Information
     - Obtain the OTP QR code for the website you are logging into.
     - Right-click the QR code and select the “Recognize OTP QR Code” option provided by the extension.

@@ -1,6 +1,6 @@
 import jsQR from "jsqr"
 import OTP from 'otp'
-import { LewMessage } from "lew-ui"
+import { info } from '../scripts/modal'
 import { useOtpStore } from '../store/otpStore'
 
 const { otps, add } = useOtpStore()
@@ -18,10 +18,10 @@ const readQR = ({ data, width, height }) => {
         if (code?.data?.toLowerCase()?.startsWith('otpauth://')) {
             return code.data
         }
-        LewMessage.info({ content: '未解析到有效MFA' })
+        info({ content: '未解析到有效MFA' })
     } catch (e) {
         console.error('解析二维码异常:', e)
-        LewMessage.warning({ content: '解析二维码失败' })
+        info({ content: '解析二维码失败' })
     }
 }
 
@@ -59,7 +59,7 @@ const readFiles = async (files, source) => {
                 let opt = otps.value.find(item => item.id == id)
                 if (opt) {
                     // alert(`已存在相同的配置:${opt.title}`)
-                    LewMessage.info({ content: `已存在相同配置` })
+                    info({ content: `已存在相同配置` })
                 } else {
                     add({ id, title })
                 }

@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    padding: 10px !important;
+    padding: 10px;
     box-sizing: border-box;
-    color: var(--lew-text-color-1);
-    background: var(--lew-bgcolor-1);
+    background: var(--color-bg-3);
 }
 
 #app {
@@ -28,26 +27,27 @@ body {
     height: 100%;
     z-index: 1;
     /* pointer-events: none; */
-    background: linear-gradient(90deg, red 50%, transparent 0) repeat-x,
-        linear-gradient(90deg, red 50%, transparent 0) repeat-x,
-        linear-gradient(0deg, red 50%, transparent 0) repeat-y,
-        linear-gradient(0deg, red 50%, transparent 0) repeat-y;
+    background: linear-gradient(90deg, var(--color-primary-light-4) 50%, transparent 0) repeat-x,
+        linear-gradient(90deg, var(--color-primary-light-4) 50%, transparent 0) repeat-x,
+        linear-gradient(0deg, var(--color-primary-light-4) 50%, transparent 0) repeat-y,
+        linear-gradient(0deg, var(--color-primary-light-4) 50%, transparent 0) repeat-y;
     background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
     background-position: 0 0, 0 100%, 0 0, 100% 0;
     animation: drag-border-ani .5s infinite linear;
 }
-.v-move,
-.v-enter-active,
-.v-leave-active {
-    transition: all .5s ease;
+
+.arco-modal-simple {
+    padding: 20px;
 }
 
-.v-enter-from,
-.v-leave-to {
-    opacity: 0;
-    transform: translateY(30px);
+.arco-modal-simple .arco-modal-footer {
+    margin-top: 10px;
 }
 
-.v-leave-active {
-    position: absolute;
+.arco-drawer-body {
+    overflow: hidden;
+}
+
+.arco-list-content .arco-empty {
+    flex-direction: column;
 }

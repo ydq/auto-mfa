@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import copy from "rollup-plugin-copy"
+import { ArcoResolver } from 'unplugin-vue-components/resolvers';
 
 // https://vite.dev/config/
 const commonCfg = defineConfig({
@@ -10,9 +11,10 @@ const commonCfg = defineConfig({
         Components({
             resolvers: [
                 name => {
-                    if (name.startsWith('Lew'))
-                        return { name, from: 'lew-ui' }
+                    if (name.startsWith('Icon'))
+                        return { name, from: '@arco-design/web-vue/es/icon' }
                 },
+                ArcoResolver({ sideEffect: true }),
             ]
         }),
         copy({

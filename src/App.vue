@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import { useOtpStore } from './store/otpStore'
 import { pasteFile, dropFile } from './scripts/mfa_decode'
 import './scripts/auto_dark'
@@ -18,28 +18,19 @@ const init = () => {
 
 onMounted(init)
 
-const test = ref('')
 
 </script>
 
 <template>
-    <lew-flex direction="y"
-              x="center"
-              y="start"
-              mode="between"
-              style="min-height: 200px;">
-        <lew-flex direction="y"
-                  x="center"
-                  y="start"
-                  v-if="otps.length"
-                  style="position:relative">
-            <otp-item :otps />
-        </lew-flex>
-        <lew-empty v-else
-                   type="likes"
-                   title="请先添加配置" />
-        <uploader />
-    </lew-flex>
+    <a-row style="display: flex;flex-direction: column;align-items: center;">
+        <a-col flex="auto"
+               style="width: 100%;">
+            <otp-items :otps />
+        </a-col>
+        <a-col flex="1">
+            <uploader />
+        </a-col>
+    </a-row>
 </template>
 
 <style></style>

@@ -37,7 +37,7 @@ chrome.storage.sync.get().then(async otps => {
 //给右键菜单绑定事件
 chrome.contextMenus.onClicked.addListener((info, tab) => {
     chrome.scripting.executeScript({
-        args:[new OTP({ secret: info.menuItemId }).totp()],
+        args: [new OTP({ secret: info.menuItemId }).totp()],
         target: { tabId: tab.id },
         func
     })
