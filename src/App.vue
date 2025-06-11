@@ -14,9 +14,14 @@ const init = () => {
     body.ondragover = e => e.preventDefault()
     body.ondragenter = e => body.classList.add('draging')
     body.ondragleave = e => body.classList.remove('draging')
+
+    if (import.meta.env.MODE != 'watch') {
+        document.oncontextmenu = () => (false)
+    }
 }
 
 onMounted(init)
+
 
 
 </script>

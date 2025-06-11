@@ -1,5 +1,6 @@
 <script setup>
 import OTP from 'otp'
+import { onMounted, ref } from 'vue'
 import { useOtpStore } from '../store/otpStore'
 import { info, confirm } from '../scripts/modal'
 import { h, reactive } from 'vue'
@@ -15,12 +16,13 @@ const qrcode = reactive({
 
 
 const doCopy = async (i, otp) => {
+    console.log(new OTP({ secret: otp.id }))
     const code = new OTP({ secret: otp.id }).totp()
     try {
         await navigator.clipboard.writeText(code)
-        info({ content: `code:${code} 已复制到剪切板` })
+        info({ content: `验证码 ${code} 已复制到剪切板` })
     } catch (err) {
-        info({ content: `code:${code}` })
+        info({ content: `验证码 ${code}` })
     }
 }
 
@@ -39,6 +41,17 @@ const makeQrcode = async (i, { title, id }) => {
     qrcode.url = await QRCode.toDataURL(`otpauth://totp/${title}?secret=${id}`)
 }
 
+const calcCode = ({ id: secret }) => new OTP({ secret }).totp()
+
+const calcProgress = () => Date.now() / 1e3 % 30 / 30
+
+const percent = ref(calcProgress())
+
+setInterval(() => {
+    percent.value = calcProgress()
+}, 1e3)
+
+
 </script>
 <template>
     <a-list size="small"
@@ -52,32 +65,33 @@ const makeQrcode = async (i, { title, id }) => {
         </template>
         <template #item="{ index, item }">
             <a-list-item style="width: 100%;padding:5px">
-                <a-tooltip mini
-                           content="备注名称直接编辑自动保存">
+                <a-input-group>
                     <a-input v-model="item.title"
                              placeholder="请输入备注名称"
-                             style="flex: 1;width: 100%;" />
-                </a-tooltip>
-                <template #actions>
+                             style="flex: 1;width: 100%;">
+                    </a-input>
                     <a-button-group>
-                        <a-tooltip mini
-                                   content="复制Code">
-                            <a-button @click="doCopy(index, item)">
-                                <template #icon><icon-copy /></template>
-                            </a-button></a-tooltip>
-                        <a-tooltip mini
-                                   content="导出二维码">
-                            <a-button @click="makeQrcode(index, item)">
-                                <template #icon><icon-qrcode /></template>
-                            </a-button></a-tooltip>
-                        <a-tooltip mini
-                                   content="删除配置">
-                            <a-button status="danger"
-                                      @click="doDel(index, item)">
-                                <template #icon><icon-delete /></template>
-                            </a-button></a-tooltip>
+                        <a-button @click="doCopy(index, item)"
+                                  draggable="true"
+                                  @dragstart="e => e.dataTransfer.setData('Text', e.target.innerText)"
+                                  style="font-family: monospace;padding:0 8px">
+                            {{ calcCode(item) }}
+                            <template #icon>
+                                <a-progress size="mini"
+                                            :percent
+                                            :width="16"
+                                            style="cursor: move;" />
+                            </template>
+                        </a-button>
+                        <a-button @click="makeQrcode(index, item)">
+                            <template #icon><icon-qrcode /></template>
+                        </a-button>
+                        <a-button status="danger"
+                                  @click="doDel(index, item)">
+                            <template #icon><icon-delete /></template>
+                        </a-button>
                     </a-button-group>
-                </template>
+                </a-input-group>
             </a-list-item>
         </template>
     </a-list>
