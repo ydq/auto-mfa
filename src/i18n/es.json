@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "Autenticador MFA ligero con códigos QR, entrada manual, copias de seguridad y autocompletado desde el menú contextual."
+  },
+  "add": {
+    "message": "Añadir"
+  },
+  "addTitle": {
+    "message": "Añadir cuenta MFA"
+  },
+  "editTitle": {
+    "message": "Editar cuenta MFA"
+  },
+  "exportTitle": {
+    "message": "Exportar cuentas"
+  },
+  "qrTitle": {
+    "message": "Código QR MFA"
+  },
+  "deleteTitle": {
+    "message": "Eliminar cuenta"
+  },
+  "manage": {
+    "message": "Gestionar cuentas"
+  },
+  "more": {
+    "message": "Más opciones"
+  },
+  "reload": {
+    "message": "Recargar"
+  },
+  "loading": {
+    "message": "Cargando cuentas…"
+  },
+  "emptyTitle": {
+    "message": "Aún no hay cuentas MFA"
+  },
+  "emptyHint": {
+    "message": "Añade un código QR o una clave secreta"
+  },
+  "backupActions": {
+    "message": "Opciones de copia"
+  },
+  "importTitle": {
+    "message": "Importar cuentas"
+  },
+  "closeNotice": {
+    "message": "Cerrar notificación"
+  },
+  "processing": {
+    "message": "Procesando…"
+  },
+  "dropQr": {
+    "message": "Suelta para añadir cuentas QR"
+  },
+  "qrActions": {
+    "message": "Opciones del código QR"
+  },
+  "saveQr": {
+    "message": "Guardar código QR"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "chooseQr": {
+    "message": "Elegir imágenes QR"
+  },
+  "chooseQrHint": {
+    "message": "Pega capturas, arrastra imágenes o selecciona varios archivos"
+  },
+  "manualDivider": {
+    "message": "o introducir manualmente"
+  },
+  "exportHint": {
+    "message": "Guarda {count} cuentas en el orden de la lista para importarlas después."
+  },
+  "fileFormat": {
+    "message": "Formato de archivo"
+  },
+  "exportWarning": {
+    "message": "Las copias contienen claves sin cifrar. Guárdalas en un lugar seguro."
+  },
+  "exportBackup": {
+    "message": "Exportar copia"
+  },
+  "qrAlt": {
+    "message": "Código QR de una cuenta MFA con la clave secreta"
+  },
+  "qrWarning": {
+    "message": "Este código QR contiene una clave secreta. No lo compartas."
+  },
+  "deleteQuestion": {
+    "message": "¿Eliminar «{title}»?"
+  },
+  "deleteWarning": {
+    "message": "No se puede deshacer. Comprueba que tienes una copia."
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "unnamed": {
+    "message": "Cuenta sin nombre"
+  },
+  "operationFailed": {
+    "message": "Se ha producido un error. Inténtalo de nuevo."
+  },
+  "loadFailed": {
+    "message": "No se pudieron cargar las cuentas. Reinténtalo; los datos no han cambiado."
+  },
+  "importResult": {
+    "message": "Cuentas añadidas: {added}"
+  },
+  "importSkipped": {
+    "message": "; duplicados omitidos: {skipped}"
+  },
+  "updated": {
+    "message": "Cuenta actualizada"
+  },
+  "fileTooLarge": {
+    "message": "Elige una copia de menos de 2 MB"
+  },
+  "exported": {
+    "message": "Copia exportada"
+  },
+  "renameFailed": {
+    "message": "No se pudo guardar el nombre. Inténtalo de nuevo."
+  },
+  "copied": {
+    "message": "Código copiado"
+  },
+  "clipboardFailed": {
+    "message": "Portapapeles no disponible. Copia este código: {code}"
+  },
+  "deleted": {
+    "message": "Cuenta eliminada"
+  },
+  "name": {
+    "message": "Nombre"
+  },
+  "namePlaceholder": {
+    "message": "Ej. GitHub · Trabajo"
+  },
+  "secretOrUri": {
+    "message": "Clave secreta o URI otpauth"
+  },
+  "secretPlaceholder": {
+    "message": "Introduce una clave Base32"
+  },
+  "hideSecret": {
+    "message": "Ocultar clave"
+  },
+  "showSecret": {
+    "message": "Mostrar clave"
+  },
+  "advanced": {
+    "message": "Configuración avanzada"
+  },
+  "algorithm": {
+    "message": "Algoritmo"
+  },
+  "digits": {
+    "message": "Dígitos"
+  },
+  "digitsOption": {
+    "message": "{count} dígitos"
+  },
+  "period": {
+    "message": "Período (segundos)"
+  },
+  "saveChanges": {
+    "message": "Guardar cambios"
+  },
+  "saveAccount": {
+    "message": "Guardar cuenta"
+  },
+  "confirmEdit": {
+    "message": "Confirmar cambios"
+  },
+  "confirmEditHint": {
+    "message": "Has cambiado {fields}, lo que puede afectar a los códigos. ¿Guardar los cambios?"
+  },
+  "backToEdit": {
+    "message": "Volver a editar"
+  },
+  "confirmSave": {
+    "message": "Confirmar cambios"
+  },
+  "secret": {
+    "message": "clave secreta"
+  },
+  "algorithmSetting": {
+    "message": "algoritmo"
+  },
+  "digitsSetting": {
+    "message": "longitud del código"
+  },
+  "periodSetting": {
+    "message": "período de actualización"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "Introduce un nombre de cuenta"
+  },
+  "confirmName": {
+    "message": "Guardar nombre"
+  },
+  "confirmNameHint": {
+    "message": "Guardar nombre (Enter)"
+  },
+  "undoName": {
+    "message": "Deshacer cambio de nombre"
+  },
+  "undoNameHint": {
+    "message": "Deshacer cambios (Esc)"
+  },
+  "search": {
+    "message": "Buscar cuentas"
+  },
+  "accountList": {
+    "message": "Cuentas MFA"
+  },
+  "sortLabel": {
+    "message": "Arrastra o usa las flechas arriba y abajo para ordenar"
+  },
+  "sortHint": {
+    "message": "Arrastra para ordenar · también puedes usar las flechas"
+  },
+  "rowName": {
+    "message": "Nombre de la cuenta {index}"
+  },
+  "copyCode": {
+    "message": "Copiar el código de {title}"
+  },
+  "copyHint": {
+    "message": "Haz clic para copiar o arrastra el código"
+  },
+  "accountOptions": {
+    "message": "Opciones de la cuenta"
+  },
+  "noMatches": {
+    "message": "No hay cuentas coincidentes"
+  },
+  "viewQr": {
+    "message": "Ver código QR"
+  },
+  "secretRequired": {
+    "message": "Introduce una clave Base32"
+  },
+  "invalidSecret": {
+    "message": "Usa una clave Base32 válida (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "Final Base32 no válido. Comprueba que la clave esté completa."
+  },
+  "titleRequired": {
+    "message": "Introduce un nombre de cuenta"
+  },
+  "invalidAccount": {
+    "message": "Formato de cuenta no válido"
+  },
+  "invalidTitle": {
+    "message": "El nombre debe ser texto de hasta 200 caracteres"
+  },
+  "invalidAlgorithm": {
+    "message": "Algoritmo no compatible"
+  },
+  "invalidDigits": {
+    "message": "Los códigos deben tener 6 u 8 dígitos"
+  },
+  "invalidPeriod": {
+    "message": "El período debe ser de 1 a 3600 segundos"
+  },
+  "invalidUri": {
+    "message": "URI otpauth no válida"
+  },
+  "totpOnly": {
+    "message": "Solo se admiten cuentas TOTP basadas en el tiempo"
+  },
+  "invalidNameEncoding": {
+    "message": "Codificación del nombre de cuenta no válida"
+  },
+  "listRequired": {
+    "message": "La copia debe contener una matriz list"
+  },
+  "invalidVersion": {
+    "message": "Versión de copia no compatible"
+  },
+  "accountError": {
+    "message": "Cuenta {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "Formato de exportación no compatible"
+  },
+  "yamlValue": {
+    "message": "Valor YAML no válido. Usa una copia exportada por esta extensión."
+  },
+  "yamlVersion": {
+    "message": "Campo YAML version duplicado"
+  },
+  "yamlList": {
+    "message": "Campo YAML list duplicado"
+  },
+  "yamlMissingList": {
+    "message": "Falta el campo YAML list"
+  },
+  "yamlFields": {
+    "message": "Campo de cuenta YAML no válido o duplicado"
+  },
+  "yamlStructure": {
+    "message": "Estructura YAML no válida. Usa una copia exportada por esta extensión."
+  },
+  "xmlEntities": {
+    "message": "El XML no puede contener DTD ni declaraciones de entidades"
+  },
+  "xmlFormat": {
+    "message": "Formato o versión XML no válido"
+  },
+  "xmlNode": {
+    "message": "Nodo XML desconocido"
+  },
+  "xmlFields": {
+    "message": "Campo de cuenta XML no válido"
+  },
+  "invalidBackup": {
+    "message": "Elige una copia JSON, YAML o XML válida"
+  },
+  "notReady": {
+    "message": "Las cuentas aún se están cargando. Inténtalo dentro de un momento."
+  },
+  "accountMissing": {
+    "message": "Esta cuenta ya no existe. Ábrela de nuevo."
+  },
+  "duplicateSecret": {
+    "message": "Ya existe una cuenta con esta clave secreta"
+  },
+  "qrImageRequired": {
+    "message": "Elige una imagen de código QR"
+  },
+  "imageTooLarge": {
+    "message": "La imagen es demasiado grande. Recorta el código QR y reinténtalo."
+  },
+  "qrNotFound": {
+    "message": "No se detectó ningún QR. Usa una imagen original nítida."
+  },
+  "imageReadFailed": {
+    "message": "No se pudo leer la imagen. Elige una imagen QR válida."
+  },
+  "menuFailed": {
+    "message": "No se pudieron actualizar los menús MFA"
+  },
+  "autofillFailed": {
+    "message": "Error al autocompletar MFA"
+  },
+  "editAccount": {
+    "message": "Editar cuenta"
+  },
+  "storageMaintenancePending": {
+    "message": "La actualización o limpieza del almacenamiento no terminó. Los datos se conservan y pueden consultarse o exportarse. Se reintentará al guardar."
+  },
+  "storageChanged": {
+    "message": "Las cuentas han cambiado en otro lugar. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "Autenticador MFA leve com códigos QR, entrada manual, backups e preenchimento pelo menu de contexto."
+  },
+  "add": {
+    "message": "Adicionar"
+  },
+  "addTitle": {
+    "message": "Adicionar conta MFA"
+  },
+  "editTitle": {
+    "message": "Editar conta MFA"
+  },
+  "exportTitle": {
+    "message": "Exportar contas"
+  },
+  "qrTitle": {
+    "message": "Código QR MFA"
+  },
+  "deleteTitle": {
+    "message": "Excluir conta"
+  },
+  "manage": {
+    "message": "Gerenciar contas"
+  },
+  "more": {
+    "message": "Mais opções"
+  },
+  "reload": {
+    "message": "Recarregar"
+  },
+  "loading": {
+    "message": "Carregando contas…"
+  },
+  "emptyTitle": {
+    "message": "Nenhuma conta MFA ainda"
+  },
+  "emptyHint": {
+    "message": "Adicione um código QR ou uma chave secreta"
+  },
+  "backupActions": {
+    "message": "Opções de backup"
+  },
+  "importTitle": {
+    "message": "Importar contas"
+  },
+  "closeNotice": {
+    "message": "Fechar notificação"
+  },
+  "processing": {
+    "message": "Processando…"
+  },
+  "dropQr": {
+    "message": "Solte para adicionar contas QR"
+  },
+  "qrActions": {
+    "message": "Opções do código QR"
+  },
+  "saveQr": {
+    "message": "Salvar código QR"
+  },
+  "save": {
+    "message": "Salvar"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "chooseQr": {
+    "message": "Escolher imagens QR"
+  },
+  "chooseQrHint": {
+    "message": "Cole capturas, arraste imagens ou selecione vários arquivos"
+  },
+  "manualDivider": {
+    "message": "ou digite manualmente"
+  },
+  "exportHint": {
+    "message": "Faça backup de {count} contas na ordem da lista para importar depois."
+  },
+  "fileFormat": {
+    "message": "Formato do arquivo"
+  },
+  "exportWarning": {
+    "message": "Backups contêm chaves sem criptografia. Guarde-os em um lugar seguro."
+  },
+  "exportBackup": {
+    "message": "Exportar backup"
+  },
+  "qrAlt": {
+    "message": "Código QR da conta MFA contendo a chave secreta"
+  },
+  "qrWarning": {
+    "message": "Este QR contém uma chave secreta. Não o compartilhe."
+  },
+  "deleteQuestion": {
+    "message": "Excluir “{title}”?"
+  },
+  "deleteWarning": {
+    "message": "Esta ação não pode ser desfeita. Confira seu backup."
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "unnamed": {
+    "message": "Conta sem nome"
+  },
+  "operationFailed": {
+    "message": "Ocorreu um erro. Tente novamente."
+  },
+  "loadFailed": {
+    "message": "Não foi possível carregar as contas. Tente novamente; os dados não foram alterados."
+  },
+  "importResult": {
+    "message": "Contas adicionadas: {added}"
+  },
+  "importSkipped": {
+    "message": "; duplicatas ignoradas: {skipped}"
+  },
+  "updated": {
+    "message": "Conta atualizada"
+  },
+  "fileTooLarge": {
+    "message": "Escolha um backup menor que 2 MB"
+  },
+  "exported": {
+    "message": "Backup exportado"
+  },
+  "renameFailed": {
+    "message": "Não foi possível salvar o nome. Tente novamente."
+  },
+  "copied": {
+    "message": "Código copiado"
+  },
+  "clipboardFailed": {
+    "message": "Área de transferência indisponível. Copie este código: {code}"
+  },
+  "deleted": {
+    "message": "Conta excluída"
+  },
+  "name": {
+    "message": "Nome"
+  },
+  "namePlaceholder": {
+    "message": "Ex.: GitHub · Trabalho"
+  },
+  "secretOrUri": {
+    "message": "Chave secreta ou URI otpauth"
+  },
+  "secretPlaceholder": {
+    "message": "Digite uma chave Base32"
+  },
+  "hideSecret": {
+    "message": "Ocultar chave"
+  },
+  "showSecret": {
+    "message": "Mostrar chave"
+  },
+  "advanced": {
+    "message": "Configurações avançadas"
+  },
+  "algorithm": {
+    "message": "Algoritmo"
+  },
+  "digits": {
+    "message": "Dígitos"
+  },
+  "digitsOption": {
+    "message": "{count} dígitos"
+  },
+  "period": {
+    "message": "Período (segundos)"
+  },
+  "saveChanges": {
+    "message": "Salvar alterações"
+  },
+  "saveAccount": {
+    "message": "Salvar conta"
+  },
+  "confirmEdit": {
+    "message": "Confirmar alterações"
+  },
+  "confirmEditHint": {
+    "message": "Você alterou {fields}, o que pode afetar os códigos. Salvar alterações?"
+  },
+  "backToEdit": {
+    "message": "Voltar à edição"
+  },
+  "confirmSave": {
+    "message": "Confirmar alterações"
+  },
+  "secret": {
+    "message": "chave secreta"
+  },
+  "algorithmSetting": {
+    "message": "algoritmo"
+  },
+  "digitsSetting": {
+    "message": "tamanho do código"
+  },
+  "periodSetting": {
+    "message": "período de atualização"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "Digite um nome para a conta"
+  },
+  "confirmName": {
+    "message": "Salvar nome"
+  },
+  "confirmNameHint": {
+    "message": "Salvar nome (Enter)"
+  },
+  "undoName": {
+    "message": "Desfazer alteração do nome"
+  },
+  "undoNameHint": {
+    "message": "Desfazer alterações (Esc)"
+  },
+  "search": {
+    "message": "Buscar contas"
+  },
+  "accountList": {
+    "message": "Contas MFA"
+  },
+  "sortLabel": {
+    "message": "Arraste ou use as setas para cima e para baixo para ordenar"
+  },
+  "sortHint": {
+    "message": "Arraste para ordenar · as setas também funcionam"
+  },
+  "rowName": {
+    "message": "Nome da conta {index}"
+  },
+  "copyCode": {
+    "message": "Copiar o código de {title}"
+  },
+  "copyHint": {
+    "message": "Clique para copiar ou arraste o código"
+  },
+  "accountOptions": {
+    "message": "Opções da conta"
+  },
+  "noMatches": {
+    "message": "Nenhuma conta correspondente"
+  },
+  "viewQr": {
+    "message": "Ver código QR"
+  },
+  "secretRequired": {
+    "message": "Digite uma chave Base32"
+  },
+  "invalidSecret": {
+    "message": "Use uma chave Base32 válida (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "Final Base32 inválido. Verifique se a chave está completa."
+  },
+  "titleRequired": {
+    "message": "Digite um nome para a conta"
+  },
+  "invalidAccount": {
+    "message": "Formato de conta inválido"
+  },
+  "invalidTitle": {
+    "message": "O nome deve ser um texto com até 200 caracteres"
+  },
+  "invalidAlgorithm": {
+    "message": "Algoritmo não suportado"
+  },
+  "invalidDigits": {
+    "message": "Os códigos devem ter 6 ou 8 dígitos"
+  },
+  "invalidPeriod": {
+    "message": "O período deve ser de 1 a 3600 segundos"
+  },
+  "invalidUri": {
+    "message": "URI otpauth inválido"
+  },
+  "totpOnly": {
+    "message": "Somente contas TOTP baseadas em tempo são suportadas"
+  },
+  "invalidNameEncoding": {
+    "message": "Codificação do nome da conta inválida"
+  },
+  "listRequired": {
+    "message": "O backup deve conter uma matriz list"
+  },
+  "invalidVersion": {
+    "message": "Versão de backup não suportada"
+  },
+  "accountError": {
+    "message": "Conta {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "Formato de exportação não suportado"
+  },
+  "yamlValue": {
+    "message": "Valor YAML inválido. Use um backup exportado por esta extensão."
+  },
+  "yamlVersion": {
+    "message": "Campo YAML version duplicado"
+  },
+  "yamlList": {
+    "message": "Campo YAML list duplicado"
+  },
+  "yamlMissingList": {
+    "message": "Campo YAML list ausente"
+  },
+  "yamlFields": {
+    "message": "Campo de conta YAML inválido ou duplicado"
+  },
+  "yamlStructure": {
+    "message": "Estrutura YAML inválida. Use um backup exportado por esta extensão."
+  },
+  "xmlEntities": {
+    "message": "O XML não pode conter DTD ou declarações de entidades"
+  },
+  "xmlFormat": {
+    "message": "Formato ou versão XML inválido"
+  },
+  "xmlNode": {
+    "message": "Nó XML desconhecido"
+  },
+  "xmlFields": {
+    "message": "Campo de conta XML inválido"
+  },
+  "invalidBackup": {
+    "message": "Escolha um backup JSON, YAML ou XML válido"
+  },
+  "notReady": {
+    "message": "As contas ainda estão carregando. Tente novamente em instantes."
+  },
+  "accountMissing": {
+    "message": "Esta conta não existe mais. Abra-a novamente."
+  },
+  "duplicateSecret": {
+    "message": "Já existe uma conta com esta chave secreta"
+  },
+  "qrImageRequired": {
+    "message": "Escolha uma imagem de código QR"
+  },
+  "imageTooLarge": {
+    "message": "Imagem muito grande. Recorte o código QR e tente novamente."
+  },
+  "qrNotFound": {
+    "message": "Nenhum QR encontrado. Use uma imagem original nítida."
+  },
+  "imageReadFailed": {
+    "message": "Não foi possível ler a imagem. Escolha uma imagem QR válida."
+  },
+  "menuFailed": {
+    "message": "Não foi possível atualizar os menus MFA"
+  },
+  "autofillFailed": {
+    "message": "Falha no preenchimento automático MFA"
+  },
+  "editAccount": {
+    "message": "Editar conta"
+  },
+  "storageMaintenancePending": {
+    "message": "A atualização ou limpeza do armazenamento não terminou. Os dados foram preservados e podem ser consultados ou exportados. Uma nova tentativa ocorrerá ao salvar."
+  },
+  "storageChanged": {
+    "message": "As contas foram alteradas em outro lugar. Tente novamente."
+  }
+}

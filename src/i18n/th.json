@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "เครื่องมือยืนยันตัวตน MFA ขนาดเบา รองรับ QR การตั้งค่าด้วยตนเอง การสำรองข้อมูล และกรอกผ่านเมนูคลิกขวา"
+  },
+  "add": {
+    "message": "เพิ่ม"
+  },
+  "addTitle": {
+    "message": "เพิ่มบัญชี MFA"
+  },
+  "editTitle": {
+    "message": "แก้ไขบัญชี MFA"
+  },
+  "exportTitle": {
+    "message": "ส่งออกบัญชี"
+  },
+  "qrTitle": {
+    "message": "รหัส QR ของ MFA"
+  },
+  "deleteTitle": {
+    "message": "ลบบัญชี"
+  },
+  "manage": {
+    "message": "จัดการบัญชี"
+  },
+  "more": {
+    "message": "ตัวเลือกเพิ่มเติม"
+  },
+  "reload": {
+    "message": "โหลดใหม่"
+  },
+  "loading": {
+    "message": "กำลังโหลดบัญชี…"
+  },
+  "emptyTitle": {
+    "message": "ยังไม่มีบัญชี MFA"
+  },
+  "emptyHint": {
+    "message": "เพิ่มรหัส QR หรือป้อนคีย์ลับ"
+  },
+  "backupActions": {
+    "message": "ตัวเลือกการสำรองข้อมูล"
+  },
+  "importTitle": {
+    "message": "นำเข้าบัญชี"
+  },
+  "closeNotice": {
+    "message": "ปิดการแจ้งเตือน"
+  },
+  "processing": {
+    "message": "กำลังดำเนินการ…"
+  },
+  "dropQr": {
+    "message": "วางเพื่อเพิ่มบัญชีจาก QR"
+  },
+  "qrActions": {
+    "message": "ตัวเลือก QR"
+  },
+  "saveQr": {
+    "message": "บันทึก QR"
+  },
+  "save": {
+    "message": "บันทึก"
+  },
+  "close": {
+    "message": "ปิด"
+  },
+  "chooseQr": {
+    "message": "เลือกรูปภาพ QR"
+  },
+  "chooseQrHint": {
+    "message": "วางภาพหน้าจอ ลากรูปภาพ หรือเลือกหลายไฟล์"
+  },
+  "manualDivider": {
+    "message": "หรือป้อนด้วยตนเอง"
+  },
+  "exportHint": {
+    "message": "สำรอง {count} บัญชีตามลำดับในรายการ เพื่อนำเข้าภายหลัง"
+  },
+  "fileFormat": {
+    "message": "รูปแบบไฟล์"
+  },
+  "exportWarning": {
+    "message": "ข้อมูลสำรองมีคีย์ลับที่ไม่ได้เข้ารหัส โปรดเก็บไว้ในที่ปลอดภัย"
+  },
+  "exportBackup": {
+    "message": "ส่งออกข้อมูลสำรอง"
+  },
+  "qrAlt": {
+    "message": "รหัส QR ของบัญชี MFA ที่มีคีย์ลับ"
+  },
+  "qrWarning": {
+    "message": "QR นี้มีคีย์ลับ โปรดอย่าแชร์ให้ผู้อื่น"
+  },
+  "deleteQuestion": {
+    "message": "ลบ “{title}” หรือไม่?"
+  },
+  "deleteWarning": {
+    "message": "ไม่สามารถยกเลิกได้ โปรดตรวจสอบว่ามีข้อมูลสำรองแล้ว"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "unnamed": {
+    "message": "บัญชีไม่มีชื่อ"
+  },
+  "operationFailed": {
+    "message": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง"
+  },
+  "loadFailed": {
+    "message": "โหลดบัญชีไม่ได้ โปรดลองอีกครั้ง ข้อมูลเดิมไม่เปลี่ยนแปลง"
+  },
+  "importResult": {
+    "message": "เพิ่มแล้ว {added} บัญชี"
+  },
+  "importSkipped": {
+    "message": " ข้ามรายการซ้ำ {skipped} รายการ"
+  },
+  "updated": {
+    "message": "อัปเดตบัญชีแล้ว"
+  },
+  "fileTooLarge": {
+    "message": "เลือกไฟล์สำรองที่เล็กกว่า 2 MB"
+  },
+  "exported": {
+    "message": "ส่งออกข้อมูลสำรองแล้ว"
+  },
+  "renameFailed": {
+    "message": "บันทึกชื่อไม่ได้ โปรดลองอีกครั้ง"
+  },
+  "copied": {
+    "message": "คัดลอกรหัสแล้ว"
+  },
+  "clipboardFailed": {
+    "message": "ใช้คลิปบอร์ดไม่ได้ โปรดคัดลอกรหัสนี้: {code}"
+  },
+  "deleted": {
+    "message": "ลบบัญชีแล้ว"
+  },
+  "name": {
+    "message": "ชื่อ"
+  },
+  "namePlaceholder": {
+    "message": "เช่น GitHub · งาน"
+  },
+  "secretOrUri": {
+    "message": "คีย์ลับหรือ URI otpauth"
+  },
+  "secretPlaceholder": {
+    "message": "ป้อนคีย์ลับ Base32"
+  },
+  "hideSecret": {
+    "message": "ซ่อนคีย์ลับ"
+  },
+  "showSecret": {
+    "message": "แสดงคีย์ลับ"
+  },
+  "advanced": {
+    "message": "การตั้งค่าขั้นสูง"
+  },
+  "algorithm": {
+    "message": "อัลกอริทึม"
+  },
+  "digits": {
+    "message": "จำนวนหลัก"
+  },
+  "digitsOption": {
+    "message": "{count} หลัก"
+  },
+  "period": {
+    "message": "ช่วงเวลา (วินาที)"
+  },
+  "saveChanges": {
+    "message": "บันทึกการแก้ไข"
+  },
+  "saveAccount": {
+    "message": "บันทึกบัญชี"
+  },
+  "confirmEdit": {
+    "message": "ยืนยันการแก้ไขบัญชี"
+  },
+  "confirmEditHint": {
+    "message": "คุณแก้ไข {fields} ซึ่งอาจส่งผลต่อรหัสยืนยัน ต้องการบันทึกหรือไม่?"
+  },
+  "backToEdit": {
+    "message": "กลับไปแก้ไข"
+  },
+  "confirmSave": {
+    "message": "ยืนยันการแก้ไข"
+  },
+  "secret": {
+    "message": "คีย์ลับ"
+  },
+  "algorithmSetting": {
+    "message": "อัลกอริทึม"
+  },
+  "digitsSetting": {
+    "message": "ความยาวรหัส"
+  },
+  "periodSetting": {
+    "message": "ช่วงเวลารีเฟรช"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "ป้อนชื่อบัญชี"
+  },
+  "confirmName": {
+    "message": "บันทึกชื่อ"
+  },
+  "confirmNameHint": {
+    "message": "บันทึกชื่อ (Enter)"
+  },
+  "undoName": {
+    "message": "เลิกทำการแก้ไขชื่อ"
+  },
+  "undoNameHint": {
+    "message": "เลิกทำการแก้ไข (Esc)"
+  },
+  "search": {
+    "message": "ค้นหาบัญชี"
+  },
+  "accountList": {
+    "message": "บัญชี MFA"
+  },
+  "sortLabel": {
+    "message": "ลากหรือใช้ปุ่มลูกศรขึ้นลงเพื่อจัดลำดับ"
+  },
+  "sortHint": {
+    "message": "ลากเพื่อจัดลำดับ · ใช้ปุ่มลูกศรได้เช่นกัน"
+  },
+  "rowName": {
+    "message": "ชื่อบัญชี {index}"
+  },
+  "copyCode": {
+    "message": "คัดลอกรหัสของ {title}"
+  },
+  "copyHint": {
+    "message": "คลิกเพื่อคัดลอก หรือลากรหัสออก"
+  },
+  "accountOptions": {
+    "message": "ตัวเลือกบัญชี"
+  },
+  "noMatches": {
+    "message": "ไม่พบบัญชีที่ตรงกัน"
+  },
+  "viewQr": {
+    "message": "ดูรหัส QR"
+  },
+  "secretRequired": {
+    "message": "โปรดป้อนคีย์ลับ Base32"
+  },
+  "invalidSecret": {
+    "message": "ใช้คีย์ Base32 ที่ถูกต้อง (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "ส่วนท้ายของ Base32 ไม่ถูกต้อง โปรดตรวจสอบว่าคีย์ครบถ้วน"
+  },
+  "titleRequired": {
+    "message": "โปรดป้อนชื่อบัญชี"
+  },
+  "invalidAccount": {
+    "message": "รูปแบบบัญชีไม่ถูกต้อง"
+  },
+  "invalidTitle": {
+    "message": "ชื่อต้องเป็นข้อความไม่เกิน 200 ตัวอักษร"
+  },
+  "invalidAlgorithm": {
+    "message": "ไม่รองรับอัลกอริทึมนี้"
+  },
+  "invalidDigits": {
+    "message": "รหัสต้องมี 6 หรือ 8 หลัก"
+  },
+  "invalidPeriod": {
+    "message": "ช่วงเวลาต้องอยู่ระหว่าง 1–3600 วินาที"
+  },
+  "invalidUri": {
+    "message": "URI otpauth ไม่ถูกต้อง"
+  },
+  "totpOnly": {
+    "message": "รองรับเฉพาะบัญชี TOTP แบบอิงเวลา"
+  },
+  "invalidNameEncoding": {
+    "message": "การเข้ารหัสชื่อบัญชีไม่ถูกต้อง"
+  },
+  "listRequired": {
+    "message": "ข้อมูลสำรองต้องมีอาร์เรย์ list"
+  },
+  "invalidVersion": {
+    "message": "ไม่รองรับเวอร์ชันข้อมูลสำรองนี้"
+  },
+  "accountError": {
+    "message": "บัญชี {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "ไม่รองรับรูปแบบการส่งออกนี้"
+  },
+  "yamlValue": {
+    "message": "ค่า YAML ไม่ถูกต้อง โปรดใช้ข้อมูลสำรองที่ส่งออกจากส่วนขยายนี้"
+  },
+  "yamlVersion": {
+    "message": "ฟิลด์ version ใน YAML ซ้ำ"
+  },
+  "yamlList": {
+    "message": "ฟิลด์ list ใน YAML ซ้ำ"
+  },
+  "yamlMissingList": {
+    "message": "ไม่มีฟิลด์ list ใน YAML"
+  },
+  "yamlFields": {
+    "message": "ฟิลด์บัญชี YAML ไม่ถูกต้องหรือซ้ำ"
+  },
+  "yamlStructure": {
+    "message": "โครงสร้าง YAML ไม่ถูกต้อง โปรดใช้ข้อมูลสำรองที่ส่งออกจากส่วนขยายนี้"
+  },
+  "xmlEntities": {
+    "message": "XML ต้องไม่มี DTD หรือการประกาศเอนทิตี"
+  },
+  "xmlFormat": {
+    "message": "รูปแบบหรือเวอร์ชัน XML ไม่ถูกต้อง"
+  },
+  "xmlNode": {
+    "message": "พบโหนด XML ที่ไม่รู้จัก"
+  },
+  "xmlFields": {
+    "message": "ฟิลด์บัญชี XML ไม่ถูกต้อง"
+  },
+  "invalidBackup": {
+    "message": "เลือกข้อมูลสำรอง JSON, YAML หรือ XML ที่ถูกต้อง"
+  },
+  "notReady": {
+    "message": "กำลังโหลดบัญชี โปรดลองอีกครั้งในอีกสักครู่"
+  },
+  "accountMissing": {
+    "message": "บัญชีนี้ไม่มีแล้ว โปรดเปิดใหม่"
+  },
+  "duplicateSecret": {
+    "message": "มีบัญชีที่ใช้คีย์ลับนี้แล้ว"
+  },
+  "qrImageRequired": {
+    "message": "เลือกรูปภาพรหัส QR"
+  },
+  "imageTooLarge": {
+    "message": "รูปภาพใหญ่เกินไป โปรดครอบตัด QR แล้วลองอีกครั้ง"
+  },
+  "qrNotFound": {
+    "message": "ไม่พบ QR โปรดใช้ภาพต้นฉบับที่คมชัด"
+  },
+  "imageReadFailed": {
+    "message": "อ่านรูปภาพไม่ได้ โปรดเลือกรูปภาพ QR ที่ถูกต้อง"
+  },
+  "menuFailed": {
+    "message": "อัปเดตเมนู MFA ไม่ได้"
+  },
+  "autofillFailed": {
+    "message": "การกรอก MFA อัตโนมัติล้มเหลว"
+  },
+  "editAccount": {
+    "message": "แก้ไขบัญชี"
+  },
+  "storageMaintenancePending": {
+    "message": "การอัปเกรดหรือทำความสะอาดข้อมูลยังไม่เสร็จ ข้อมูลเดิมยังอยู่และดูหรือส่งออกได้ ระบบจะลองอีกครั้งเมื่อบันทึก"
+  },
+  "storageChanged": {
+    "message": "บัญชีถูกแก้ไขจากที่อื่น โปรดลองอีกครั้ง"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "Лёгкий MFA-аутентификатор с QR-кодами, ручной настройкой, резервными копиями и вставкой через контекстное меню."
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "addTitle": {
+    "message": "Добавить MFA-аккаунт"
+  },
+  "editTitle": {
+    "message": "Изменить MFA-аккаунт"
+  },
+  "exportTitle": {
+    "message": "Экспорт аккаунтов"
+  },
+  "qrTitle": {
+    "message": "QR-код MFA"
+  },
+  "deleteTitle": {
+    "message": "Удалить аккаунт"
+  },
+  "manage": {
+    "message": "Управление аккаунтами"
+  },
+  "more": {
+    "message": "Другие действия"
+  },
+  "reload": {
+    "message": "Перезагрузить"
+  },
+  "loading": {
+    "message": "Загрузка аккаунтов…"
+  },
+  "emptyTitle": {
+    "message": "MFA-аккаунтов пока нет"
+  },
+  "emptyHint": {
+    "message": "Добавьте QR-код или секретный ключ"
+  },
+  "backupActions": {
+    "message": "Параметры резервирования"
+  },
+  "importTitle": {
+    "message": "Импорт аккаунтов"
+  },
+  "closeNotice": {
+    "message": "Закрыть уведомление"
+  },
+  "processing": {
+    "message": "Обработка…"
+  },
+  "dropQr": {
+    "message": "Отпустите для добавления QR-кодов"
+  },
+  "qrActions": {
+    "message": "Действия с QR-кодом"
+  },
+  "saveQr": {
+    "message": "Сохранить QR-код"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "chooseQr": {
+    "message": "Выбрать QR-изображения"
+  },
+  "chooseQrHint": {
+    "message": "Вставьте снимок, перетащите изображения или выберите несколько файлов"
+  },
+  "manualDivider": {
+    "message": "или введите вручную"
+  },
+  "exportHint": {
+    "message": "Сохраните аккаунты ({count}) в порядке списка для последующего импорта."
+  },
+  "fileFormat": {
+    "message": "Формат файла"
+  },
+  "exportWarning": {
+    "message": "Копия содержит незашифрованные секретные ключи. Храните её в безопасном месте."
+  },
+  "exportBackup": {
+    "message": "Экспорт копии"
+  },
+  "qrAlt": {
+    "message": "QR-код MFA-аккаунта с секретным ключом"
+  },
+  "qrWarning": {
+    "message": "QR-код содержит секретный ключ. Не передавайте его другим."
+  },
+  "deleteQuestion": {
+    "message": "Удалить «{title}»?"
+  },
+  "deleteWarning": {
+    "message": "Это действие нельзя отменить. Проверьте резервную копию."
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "unnamed": {
+    "message": "Безымянный аккаунт"
+  },
+  "operationFailed": {
+    "message": "Произошла ошибка. Повторите попытку."
+  },
+  "loadFailed": {
+    "message": "Не удалось загрузить аккаунты. Повторите попытку; данные не изменены."
+  },
+  "importResult": {
+    "message": "Добавлено аккаунтов: {added}"
+  },
+  "importSkipped": {
+    "message": "; пропущено дубликатов: {skipped}"
+  },
+  "updated": {
+    "message": "Аккаунт обновлён"
+  },
+  "fileTooLarge": {
+    "message": "Выберите копию размером менее 2 МБ"
+  },
+  "exported": {
+    "message": "Копия экспортирована"
+  },
+  "renameFailed": {
+    "message": "Не удалось сохранить имя. Повторите попытку."
+  },
+  "copied": {
+    "message": "Код скопирован"
+  },
+  "clipboardFailed": {
+    "message": "Буфер обмена недоступен. Скопируйте код: {code}"
+  },
+  "deleted": {
+    "message": "Аккаунт удалён"
+  },
+  "name": {
+    "message": "Имя"
+  },
+  "namePlaceholder": {
+    "message": "Например, GitHub · Работа"
+  },
+  "secretOrUri": {
+    "message": "Секретный ключ или otpauth URI"
+  },
+  "secretPlaceholder": {
+    "message": "Введите секретный ключ Base32"
+  },
+  "hideSecret": {
+    "message": "Скрыть ключ"
+  },
+  "showSecret": {
+    "message": "Показать ключ"
+  },
+  "advanced": {
+    "message": "Дополнительные настройки"
+  },
+  "algorithm": {
+    "message": "Алгоритм"
+  },
+  "digits": {
+    "message": "Разряды"
+  },
+  "digitsOption": {
+    "message": "{count} цифр"
+  },
+  "period": {
+    "message": "Период (секунды)"
+  },
+  "saveChanges": {
+    "message": "Сохранить изменения"
+  },
+  "saveAccount": {
+    "message": "Сохранить аккаунт"
+  },
+  "confirmEdit": {
+    "message": "Подтверждение изменений"
+  },
+  "confirmEditHint": {
+    "message": "Изменены параметры: {fields}. Это может повлиять на коды. Сохранить изменения?"
+  },
+  "backToEdit": {
+    "message": "Вернуться к правке"
+  },
+  "confirmSave": {
+    "message": "Подтвердить"
+  },
+  "secret": {
+    "message": "секретный ключ"
+  },
+  "algorithmSetting": {
+    "message": "алгоритм"
+  },
+  "digitsSetting": {
+    "message": "длина кода"
+  },
+  "periodSetting": {
+    "message": "период обновления"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "Введите имя аккаунта"
+  },
+  "confirmName": {
+    "message": "Сохранить имя"
+  },
+  "confirmNameHint": {
+    "message": "Сохранить имя (Enter)"
+  },
+  "undoName": {
+    "message": "Отменить изменение имени"
+  },
+  "undoNameHint": {
+    "message": "Отменить изменения (Esc)"
+  },
+  "search": {
+    "message": "Поиск аккаунтов"
+  },
+  "accountList": {
+    "message": "MFA-аккаунты"
+  },
+  "sortLabel": {
+    "message": "Перетащите или используйте стрелки вверх и вниз"
+  },
+  "sortHint": {
+    "message": "Сортировка перетаскиванием или стрелками"
+  },
+  "rowName": {
+    "message": "Имя аккаунта {index}"
+  },
+  "copyCode": {
+    "message": "Скопировать код для {title}"
+  },
+  "copyHint": {
+    "message": "Нажмите для копирования или перетащите код"
+  },
+  "accountOptions": {
+    "message": "Действия с аккаунтом"
+  },
+  "noMatches": {
+    "message": "Нет подходящих аккаунтов"
+  },
+  "viewQr": {
+    "message": "Показать QR-код"
+  },
+  "secretRequired": {
+    "message": "Введите секретный ключ Base32"
+  },
+  "invalidSecret": {
+    "message": "Используйте допустимый ключ Base32 (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "Некорректное окончание Base32. Проверьте полноту ключа."
+  },
+  "titleRequired": {
+    "message": "Введите имя аккаунта"
+  },
+  "invalidAccount": {
+    "message": "Некорректный формат аккаунта"
+  },
+  "invalidTitle": {
+    "message": "Имя должно быть текстом длиной не более 200 символов"
+  },
+  "invalidAlgorithm": {
+    "message": "Алгоритм не поддерживается"
+  },
+  "invalidDigits": {
+    "message": "Код должен содержать 6 или 8 цифр"
+  },
+  "invalidPeriod": {
+    "message": "Период должен составлять 1–3600 секунд"
+  },
+  "invalidUri": {
+    "message": "Некорректный otpauth URI"
+  },
+  "totpOnly": {
+    "message": "Поддерживаются только аккаунты TOTP на основе времени"
+  },
+  "invalidNameEncoding": {
+    "message": "Некорректная кодировка имени аккаунта"
+  },
+  "listRequired": {
+    "message": "Копия должна содержать массив list"
+  },
+  "invalidVersion": {
+    "message": "Версия копии не поддерживается"
+  },
+  "accountError": {
+    "message": "Аккаунт {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "Формат экспорта не поддерживается"
+  },
+  "yamlValue": {
+    "message": "Некорректное значение YAML. Используйте копию, созданную расширением."
+  },
+  "yamlVersion": {
+    "message": "Повторяющееся поле version в YAML"
+  },
+  "yamlList": {
+    "message": "Повторяющееся поле list в YAML"
+  },
+  "yamlMissingList": {
+    "message": "В YAML отсутствует поле list"
+  },
+  "yamlFields": {
+    "message": "Некорректное или повторяющееся поле аккаунта YAML"
+  },
+  "yamlStructure": {
+    "message": "Некорректная структура YAML. Используйте копию, созданную расширением."
+  },
+  "xmlEntities": {
+    "message": "XML не должен содержать DTD или объявления сущностей"
+  },
+  "xmlFormat": {
+    "message": "Некорректный формат или версия XML"
+  },
+  "xmlNode": {
+    "message": "Неизвестный узел XML"
+  },
+  "xmlFields": {
+    "message": "Некорректное поле аккаунта XML"
+  },
+  "invalidBackup": {
+    "message": "Выберите корректную копию JSON, YAML или XML"
+  },
+  "notReady": {
+    "message": "Аккаунты ещё загружаются. Повторите попытку чуть позже."
+  },
+  "accountMissing": {
+    "message": "Аккаунт больше не существует. Откройте его заново."
+  },
+  "duplicateSecret": {
+    "message": "Аккаунт с таким ключом уже существует"
+  },
+  "qrImageRequired": {
+    "message": "Выберите изображение QR-кода"
+  },
+  "imageTooLarge": {
+    "message": "Изображение слишком большое. Обрежьте QR-код и повторите попытку."
+  },
+  "qrNotFound": {
+    "message": "QR-код не найден. Используйте чёткое исходное изображение."
+  },
+  "imageReadFailed": {
+    "message": "Не удалось прочитать изображение. Выберите корректное QR-изображение."
+  },
+  "menuFailed": {
+    "message": "Не удалось обновить меню MFA"
+  },
+  "autofillFailed": {
+    "message": "Не удалось выполнить автозаполнение MFA"
+  },
+  "editAccount": {
+    "message": "Изменить аккаунт"
+  },
+  "storageMaintenancePending": {
+    "message": "Обновление или очистка хранилища не завершены. Данные сохранены; их можно просмотреть или экспортировать. При сохранении будет повторная попытка."
+  },
+  "storageChanged": {
+    "message": "Аккаунты изменены в другом месте. Повторите попытку."
+  }
+}

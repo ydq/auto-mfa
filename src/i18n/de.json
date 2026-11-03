@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "Leichter MFA-Authenticator mit QR-Einrichtung, manueller Eingabe, Backups und Ausfüllen per Kontextmenü."
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "addTitle": {
+    "message": "MFA-Konto hinzufügen"
+  },
+  "editTitle": {
+    "message": "MFA-Konto bearbeiten"
+  },
+  "exportTitle": {
+    "message": "Konten exportieren"
+  },
+  "qrTitle": {
+    "message": "MFA-QR-Code"
+  },
+  "deleteTitle": {
+    "message": "Konto löschen"
+  },
+  "manage": {
+    "message": "Konten verwalten"
+  },
+  "more": {
+    "message": "Weitere Optionen"
+  },
+  "reload": {
+    "message": "Neu laden"
+  },
+  "loading": {
+    "message": "Konten werden geladen…"
+  },
+  "emptyTitle": {
+    "message": "Noch keine MFA-Konten"
+  },
+  "emptyHint": {
+    "message": "QR-Code oder Geheimschlüssel hinzufügen"
+  },
+  "backupActions": {
+    "message": "Backup-Optionen"
+  },
+  "importTitle": {
+    "message": "Konten importieren"
+  },
+  "closeNotice": {
+    "message": "Mitteilung schließen"
+  },
+  "processing": {
+    "message": "Wird bearbeitet…"
+  },
+  "dropQr": {
+    "message": "Ablegen, um QR-Konten hinzuzufügen"
+  },
+  "qrActions": {
+    "message": "QR-Code-Optionen"
+  },
+  "saveQr": {
+    "message": "QR-Code speichern"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "chooseQr": {
+    "message": "QR-Bilder auswählen"
+  },
+  "chooseQrHint": {
+    "message": "Screenshots einfügen, Bilder ablegen oder mehrere Dateien wählen"
+  },
+  "manualDivider": {
+    "message": "oder manuell eingeben"
+  },
+  "exportHint": {
+    "message": "{count} Konten in Listenreihenfolge sichern und später importieren."
+  },
+  "fileFormat": {
+    "message": "Dateiformat"
+  },
+  "exportWarning": {
+    "message": "Backups enthalten unverschlüsselte Geheimschlüssel. Sicher aufbewahren."
+  },
+  "exportBackup": {
+    "message": "Backup exportieren"
+  },
+  "qrAlt": {
+    "message": "MFA-QR-Code mit Geheimschlüssel"
+  },
+  "qrWarning": {
+    "message": "Dieser QR-Code enthält einen Geheimschlüssel. Nicht weitergeben."
+  },
+  "deleteQuestion": {
+    "message": "„{title}“ löschen?"
+  },
+  "deleteWarning": {
+    "message": "Dies kann nicht rückgängig gemacht werden. Backup prüfen."
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "unnamed": {
+    "message": "Unbenanntes Konto"
+  },
+  "operationFailed": {
+    "message": "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
+  },
+  "loadFailed": {
+    "message": "Konten konnten nicht geladen werden. Erneut versuchen; vorhandene Daten sind unverändert."
+  },
+  "importResult": {
+    "message": "Konten hinzugefügt: {added}"
+  },
+  "importSkipped": {
+    "message": "; Duplikate übersprungen: {skipped}"
+  },
+  "updated": {
+    "message": "Konto aktualisiert"
+  },
+  "fileTooLarge": {
+    "message": "Ein Backup unter 2 MB auswählen"
+  },
+  "exported": {
+    "message": "Backup exportiert"
+  },
+  "renameFailed": {
+    "message": "Name konnte nicht gespeichert werden. Bitte erneut versuchen."
+  },
+  "copied": {
+    "message": "Code kopiert"
+  },
+  "clipboardFailed": {
+    "message": "Zwischenablage nicht verfügbar. Diesen Code kopieren: {code}"
+  },
+  "deleted": {
+    "message": "Konto gelöscht"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "namePlaceholder": {
+    "message": "z. B. GitHub · Arbeit"
+  },
+  "secretOrUri": {
+    "message": "Geheimschlüssel oder otpauth-URI"
+  },
+  "secretPlaceholder": {
+    "message": "Base32-Geheimschlüssel eingeben"
+  },
+  "hideSecret": {
+    "message": "Geheimschlüssel verbergen"
+  },
+  "showSecret": {
+    "message": "Geheimschlüssel anzeigen"
+  },
+  "advanced": {
+    "message": "Erweiterte Einstellungen"
+  },
+  "algorithm": {
+    "message": "Algorithmus"
+  },
+  "digits": {
+    "message": "Stellen"
+  },
+  "digitsOption": {
+    "message": "{count} Stellen"
+  },
+  "period": {
+    "message": "Intervall (Sekunden)"
+  },
+  "saveChanges": {
+    "message": "Änderungen speichern"
+  },
+  "saveAccount": {
+    "message": "Konto speichern"
+  },
+  "confirmEdit": {
+    "message": "Änderungen bestätigen"
+  },
+  "confirmEditHint": {
+    "message": "Geändert: {fields}. Dies kann die Bestätigungscodes beeinflussen. Änderungen speichern?"
+  },
+  "backToEdit": {
+    "message": "Zurück zur Bearbeitung"
+  },
+  "confirmSave": {
+    "message": "Änderungen bestätigen"
+  },
+  "secret": {
+    "message": "Geheimschlüssel"
+  },
+  "algorithmSetting": {
+    "message": "Algorithmus"
+  },
+  "digitsSetting": {
+    "message": "Codelänge"
+  },
+  "periodSetting": {
+    "message": "Aktualisierungsintervall"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "Kontonamen eingeben"
+  },
+  "confirmName": {
+    "message": "Namen speichern"
+  },
+  "confirmNameHint": {
+    "message": "Namen speichern (Enter)"
+  },
+  "undoName": {
+    "message": "Namensänderung verwerfen"
+  },
+  "undoNameHint": {
+    "message": "Änderungen verwerfen (Esc)"
+  },
+  "search": {
+    "message": "Konten suchen"
+  },
+  "accountList": {
+    "message": "MFA-Konten"
+  },
+  "sortLabel": {
+    "message": "Ziehen oder mit den Pfeiltasten nach oben und unten verschieben"
+  },
+  "sortHint": {
+    "message": "Ziehen zum Sortieren · auch mit Pfeiltasten"
+  },
+  "rowName": {
+    "message": "Name von Konto {index}"
+  },
+  "copyCode": {
+    "message": "Code für {title} kopieren"
+  },
+  "copyHint": {
+    "message": "Zum Kopieren klicken oder Code herausziehen"
+  },
+  "accountOptions": {
+    "message": "Kontooptionen"
+  },
+  "noMatches": {
+    "message": "Keine passenden Konten"
+  },
+  "viewQr": {
+    "message": "QR-Code anzeigen"
+  },
+  "secretRequired": {
+    "message": "Base32-Geheimschlüssel eingeben"
+  },
+  "invalidSecret": {
+    "message": "Gültigen Base32-Schlüssel verwenden (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "Ungültiges Base32-Ende. Vollständigkeit des Schlüssels prüfen."
+  },
+  "titleRequired": {
+    "message": "Kontonamen eingeben"
+  },
+  "invalidAccount": {
+    "message": "Ungültiges Kontoformat"
+  },
+  "invalidTitle": {
+    "message": "Der Name darf höchstens 200 Zeichen enthalten"
+  },
+  "invalidAlgorithm": {
+    "message": "Nicht unterstützter Algorithmus"
+  },
+  "invalidDigits": {
+    "message": "Codes müssen 6 oder 8 Stellen haben"
+  },
+  "invalidPeriod": {
+    "message": "Das Intervall muss 1–3600 Sekunden betragen"
+  },
+  "invalidUri": {
+    "message": "Ungültige otpauth-URI"
+  },
+  "totpOnly": {
+    "message": "Nur zeitbasierte TOTP-Konten werden unterstützt"
+  },
+  "invalidNameEncoding": {
+    "message": "Ungültige Kodierung des Kontonamens"
+  },
+  "listRequired": {
+    "message": "Das Backup muss ein list-Array enthalten"
+  },
+  "invalidVersion": {
+    "message": "Nicht unterstützte Backup-Version"
+  },
+  "accountError": {
+    "message": "Konto {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "Nicht unterstütztes Exportformat"
+  },
+  "yamlValue": {
+    "message": "Ungültiger YAML-Wert. Ein Backup dieser Erweiterung verwenden."
+  },
+  "yamlVersion": {
+    "message": "Doppeltes YAML-Feld version"
+  },
+  "yamlList": {
+    "message": "Doppeltes YAML-Feld list"
+  },
+  "yamlMissingList": {
+    "message": "YAML-Feld list fehlt"
+  },
+  "yamlFields": {
+    "message": "Ungültiges oder doppeltes YAML-Kontofeld"
+  },
+  "yamlStructure": {
+    "message": "Ungültige YAML-Struktur. Ein Backup dieser Erweiterung verwenden."
+  },
+  "xmlEntities": {
+    "message": "XML darf keine DTD- oder Entitätsdeklarationen enthalten"
+  },
+  "xmlFormat": {
+    "message": "Ungültiges XML-Format oder ungültige Version"
+  },
+  "xmlNode": {
+    "message": "Unbekannter XML-Knoten"
+  },
+  "xmlFields": {
+    "message": "Ungültiges XML-Kontofeld"
+  },
+  "invalidBackup": {
+    "message": "Ein gültiges JSON-, YAML- oder XML-Backup auswählen"
+  },
+  "notReady": {
+    "message": "Konten werden noch geladen. Bitte gleich erneut versuchen."
+  },
+  "accountMissing": {
+    "message": "Dieses Konto existiert nicht mehr. Erneut öffnen."
+  },
+  "duplicateSecret": {
+    "message": "Ein Konto mit diesem Geheimschlüssel existiert bereits"
+  },
+  "qrImageRequired": {
+    "message": "Ein QR-Code-Bild auswählen"
+  },
+  "imageTooLarge": {
+    "message": "Bild zu groß. QR-Code zuschneiden und erneut versuchen."
+  },
+  "qrNotFound": {
+    "message": "Kein QR-Code gefunden. Ein scharfes Originalbild verwenden."
+  },
+  "imageReadFailed": {
+    "message": "Bild konnte nicht gelesen werden. Ein gültiges QR-Bild auswählen."
+  },
+  "menuFailed": {
+    "message": "MFA-Menüs konnten nicht aktualisiert werden"
+  },
+  "autofillFailed": {
+    "message": "MFA-Ausfüllen fehlgeschlagen"
+  },
+  "editAccount": {
+    "message": "Konto bearbeiten"
+  },
+  "storageMaintenancePending": {
+    "message": "Speicherumstellung oder Bereinigung nicht abgeschlossen. Daten bleiben erhalten und können angezeigt oder exportiert werden. Beim Speichern wird es erneut versucht."
+  },
+  "storageChanged": {
+    "message": "Konten wurden an anderer Stelle geändert. Bitte erneut versuchen."
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "أداة مصادقة MFA خفيفة تدعم رموز QR والإدخال اليدوي والنسخ الاحتياطي والتعبئة من قائمة السياق."
+  },
+  "add": {
+    "message": "إضافة"
+  },
+  "addTitle": {
+    "message": "إضافة حساب MFA"
+  },
+  "editTitle": {
+    "message": "تعديل حساب MFA"
+  },
+  "exportTitle": {
+    "message": "تصدير الحسابات"
+  },
+  "qrTitle": {
+    "message": "رمز QR لحساب MFA"
+  },
+  "deleteTitle": {
+    "message": "حذف الحساب"
+  },
+  "manage": {
+    "message": "إدارة الحسابات"
+  },
+  "more": {
+    "message": "خيارات إضافية"
+  },
+  "reload": {
+    "message": "إعادة التحميل"
+  },
+  "loading": {
+    "message": "جارٍ تحميل الحسابات…"
+  },
+  "emptyTitle": {
+    "message": "لا توجد حسابات MFA بعد"
+  },
+  "emptyHint": {
+    "message": "أضف رمز QR أو أدخل مفتاحًا سريًا"
+  },
+  "backupActions": {
+    "message": "خيارات النسخ الاحتياطي"
+  },
+  "importTitle": {
+    "message": "استيراد الحسابات"
+  },
+  "closeNotice": {
+    "message": "إغلاق الإشعار"
+  },
+  "processing": {
+    "message": "جارٍ التنفيذ…"
+  },
+  "dropQr": {
+    "message": "أفلت لإضافة حسابات QR"
+  },
+  "qrActions": {
+    "message": "خيارات رمز QR"
+  },
+  "saveQr": {
+    "message": "حفظ رمز QR"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "chooseQr": {
+    "message": "اختيار صور QR"
+  },
+  "chooseQrHint": {
+    "message": "الصق لقطات شاشة أو اسحب الصور أو اختر عدة ملفات"
+  },
+  "manualDivider": {
+    "message": "أو أدخل يدويًا"
+  },
+  "exportHint": {
+    "message": "احتفظ بنسخة من {count} حسابات بترتيب القائمة لاستيرادها لاحقًا."
+  },
+  "fileFormat": {
+    "message": "تنسيق الملف"
+  },
+  "exportWarning": {
+    "message": "تحتوي النسخ على مفاتيح غير مشفرة. احفظها في مكان آمن."
+  },
+  "exportBackup": {
+    "message": "تصدير النسخة"
+  },
+  "qrAlt": {
+    "message": "رمز QR لحساب MFA يحتوي على المفتاح السري"
+  },
+  "qrWarning": {
+    "message": "يحتوي هذا الرمز على مفتاح سري. لا تشاركه مع الآخرين."
+  },
+  "deleteQuestion": {
+    "message": "هل تريد حذف «{title}»؟"
+  },
+  "deleteWarning": {
+    "message": "لا يمكن التراجع. تأكد من وجود نسخة احتياطية."
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "unnamed": {
+    "message": "حساب بلا اسم"
+  },
+  "operationFailed": {
+    "message": "حدث خطأ. حاول مرة أخرى."
+  },
+  "loadFailed": {
+    "message": "تعذر تحميل الحسابات. حاول مجددًا؛ لم تتغير البيانات الحالية."
+  },
+  "importResult": {
+    "message": "الحسابات المضافة: {added}"
+  },
+  "importSkipped": {
+    "message": "؛ التكرارات المتجاوزة: {skipped}"
+  },
+  "updated": {
+    "message": "تم تحديث الحساب"
+  },
+  "fileTooLarge": {
+    "message": "اختر نسخة احتياطية أصغر من 2 MB"
+  },
+  "exported": {
+    "message": "تم تصدير النسخة"
+  },
+  "renameFailed": {
+    "message": "تعذر حفظ الاسم. حاول مرة أخرى."
+  },
+  "copied": {
+    "message": "تم نسخ الرمز"
+  },
+  "clipboardFailed": {
+    "message": "الحافظة غير متاحة. انسخ هذا الرمز: {code}"
+  },
+  "deleted": {
+    "message": "تم حذف الحساب"
+  },
+  "name": {
+    "message": "الاسم"
+  },
+  "namePlaceholder": {
+    "message": "مثل GitHub · العمل"
+  },
+  "secretOrUri": {
+    "message": "المفتاح السري أو رابط otpauth"
+  },
+  "secretPlaceholder": {
+    "message": "أدخل مفتاح Base32"
+  },
+  "hideSecret": {
+    "message": "إخفاء المفتاح"
+  },
+  "showSecret": {
+    "message": "إظهار المفتاح"
+  },
+  "advanced": {
+    "message": "إعدادات متقدمة"
+  },
+  "algorithm": {
+    "message": "الخوارزمية"
+  },
+  "digits": {
+    "message": "الخانات"
+  },
+  "digitsOption": {
+    "message": "{count} خانات"
+  },
+  "period": {
+    "message": "الفترة (ثوانٍ)"
+  },
+  "saveChanges": {
+    "message": "حفظ التغييرات"
+  },
+  "saveAccount": {
+    "message": "حفظ الحساب"
+  },
+  "confirmEdit": {
+    "message": "تأكيد تغييرات الحساب"
+  },
+  "confirmEditHint": {
+    "message": "عدّلت {fields}، وقد يؤثر ذلك في رموز التحقق. هل تريد حفظ التغييرات؟"
+  },
+  "backToEdit": {
+    "message": "العودة للتعديل"
+  },
+  "confirmSave": {
+    "message": "تأكيد التغييرات"
+  },
+  "secret": {
+    "message": "المفتاح السري"
+  },
+  "algorithmSetting": {
+    "message": "الخوارزمية"
+  },
+  "digitsSetting": {
+    "message": "طول الرمز"
+  },
+  "periodSetting": {
+    "message": "فترة التحديث"
+  },
+  "listSeparator": {
+    "message": "، "
+  },
+  "enterName": {
+    "message": "أدخل اسم الحساب"
+  },
+  "confirmName": {
+    "message": "حفظ الاسم"
+  },
+  "confirmNameHint": {
+    "message": "حفظ الاسم (Enter)"
+  },
+  "undoName": {
+    "message": "التراجع عن تغيير الاسم"
+  },
+  "undoNameHint": {
+    "message": "التراجع عن التغييرات (Esc)"
+  },
+  "search": {
+    "message": "البحث عن حسابات"
+  },
+  "accountList": {
+    "message": "حسابات MFA"
+  },
+  "sortLabel": {
+    "message": "اسحب لإعادة الترتيب أو استخدم السهمين لأعلى ولأسفل"
+  },
+  "sortHint": {
+    "message": "اسحب للترتيب · يمكن استخدام الأسهم أيضًا"
+  },
+  "rowName": {
+    "message": "اسم الحساب {index}"
+  },
+  "copyCode": {
+    "message": "نسخ رمز {title}"
+  },
+  "copyHint": {
+    "message": "انقر للنسخ أو اسحب الرمز"
+  },
+  "accountOptions": {
+    "message": "خيارات الحساب"
+  },
+  "noMatches": {
+    "message": "لا توجد حسابات مطابقة"
+  },
+  "viewQr": {
+    "message": "عرض رمز QR"
+  },
+  "secretRequired": {
+    "message": "أدخل مفتاح Base32"
+  },
+  "invalidSecret": {
+    "message": "استخدم مفتاح Base32 صالحًا (A–Z، 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "نهاية Base32 غير صالحة. تأكد من اكتمال المفتاح."
+  },
+  "titleRequired": {
+    "message": "أدخل اسم الحساب"
+  },
+  "invalidAccount": {
+    "message": "تنسيق الحساب غير صالح"
+  },
+  "invalidTitle": {
+    "message": "يجب أن يكون الاسم نصًا لا يزيد عن 200 حرف"
+  },
+  "invalidAlgorithm": {
+    "message": "الخوارزمية غير مدعومة"
+  },
+  "invalidDigits": {
+    "message": "يجب أن يتكون الرمز من 6 أو 8 خانات"
+  },
+  "invalidPeriod": {
+    "message": "يجب أن تكون الفترة من 1 إلى 3600 ثانية"
+  },
+  "invalidUri": {
+    "message": "رابط otpauth غير صالح"
+  },
+  "totpOnly": {
+    "message": "تُدعم فقط حسابات TOTP المستندة إلى الوقت"
+  },
+  "invalidNameEncoding": {
+    "message": "ترميز اسم الحساب غير صالح"
+  },
+  "listRequired": {
+    "message": "يجب أن تحتوي النسخة على مصفوفة list"
+  },
+  "invalidVersion": {
+    "message": "إصدار النسخة غير مدعوم"
+  },
+  "accountError": {
+    "message": "الحساب {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "تنسيق التصدير غير مدعوم"
+  },
+  "yamlValue": {
+    "message": "قيمة YAML غير صالحة. استخدم نسخة صدّرها هذا الامتداد."
+  },
+  "yamlVersion": {
+    "message": "حقل version مكرر في YAML"
+  },
+  "yamlList": {
+    "message": "حقل list مكرر في YAML"
+  },
+  "yamlMissingList": {
+    "message": "حقل list مفقود في YAML"
+  },
+  "yamlFields": {
+    "message": "حقل حساب YAML غير صالح أو مكرر"
+  },
+  "yamlStructure": {
+    "message": "بنية YAML غير صالحة. استخدم نسخة صدّرها هذا الامتداد."
+  },
+  "xmlEntities": {
+    "message": "يجب ألا يحتوي XML على DTD أو تعريفات كيانات"
+  },
+  "xmlFormat": {
+    "message": "تنسيق XML أو إصداره غير صالح"
+  },
+  "xmlNode": {
+    "message": "عقدة XML غير معروفة"
+  },
+  "xmlFields": {
+    "message": "حقل حساب XML غير صالح"
+  },
+  "invalidBackup": {
+    "message": "اختر نسخة JSON أو YAML أو XML صالحة"
+  },
+  "notReady": {
+    "message": "لا تزال الحسابات قيد التحميل. حاول بعد قليل."
+  },
+  "accountMissing": {
+    "message": "لم يعد هذا الحساب موجودًا. افتحه مجددًا."
+  },
+  "duplicateSecret": {
+    "message": "يوجد حساب بهذا المفتاح السري بالفعل"
+  },
+  "qrImageRequired": {
+    "message": "اختر صورة رمز QR"
+  },
+  "imageTooLarge": {
+    "message": "الصورة كبيرة جدًا. اقتص رمز QR وحاول مجددًا."
+  },
+  "qrNotFound": {
+    "message": "لم يُعثر على QR. استخدم صورة أصلية واضحة."
+  },
+  "imageReadFailed": {
+    "message": "تعذرت قراءة الصورة. اختر صورة QR صالحة."
+  },
+  "menuFailed": {
+    "message": "تعذر تحديث قوائم MFA"
+  },
+  "autofillFailed": {
+    "message": "فشلت التعبئة التلقائية لـ MFA"
+  },
+  "editAccount": {
+    "message": "تعديل الحساب"
+  },
+  "storageMaintenancePending": {
+    "message": "لم تكتمل ترقية التخزين أو تنظيفه. بياناتك محفوظة ويمكن عرضها أو تصديرها. ستُعاد المحاولة عند الحفظ."
+  },
+  "storageChanged": {
+    "message": "تغيرت الحسابات في موضع آخر. حاول مجددًا."
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "QR・手動登録、バックアップ、右クリック入力に対応した軽量 MFA 認証ツール。"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "addTitle": {
+    "message": "MFA アカウントを追加"
+  },
+  "editTitle": {
+    "message": "MFA アカウントを編集"
+  },
+  "exportTitle": {
+    "message": "アカウントをエクスポート"
+  },
+  "qrTitle": {
+    "message": "MFA QR コード"
+  },
+  "deleteTitle": {
+    "message": "アカウントを削除"
+  },
+  "manage": {
+    "message": "アカウント管理"
+  },
+  "more": {
+    "message": "その他の操作"
+  },
+  "reload": {
+    "message": "再読み込み"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "emptyTitle": {
+    "message": "MFA アカウントはありません"
+  },
+  "emptyHint": {
+    "message": "QR コードかシークレットを追加"
+  },
+  "backupActions": {
+    "message": "バックアップ操作"
+  },
+  "importTitle": {
+    "message": "アカウントをインポート"
+  },
+  "closeNotice": {
+    "message": "通知を閉じる"
+  },
+  "processing": {
+    "message": "処理中…"
+  },
+  "dropQr": {
+    "message": "ドロップして QR コードを追加"
+  },
+  "qrActions": {
+    "message": "QR コードの操作"
+  },
+  "saveQr": {
+    "message": "QR コードを保存"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "chooseQr": {
+    "message": "QR 画像を選択"
+  },
+  "chooseQrHint": {
+    "message": "画像の貼り付け・ドロップ・複数選択に対応"
+  },
+  "manualDivider": {
+    "message": "または手動で入力"
+  },
+  "exportHint": {
+    "message": "一覧順に {count} 件をバックアップし、後でインポートできます。"
+  },
+  "fileFormat": {
+    "message": "ファイル形式"
+  },
+  "exportWarning": {
+    "message": "バックアップには暗号化されていないシークレットが含まれます。安全に保管してください。"
+  },
+  "exportBackup": {
+    "message": "バックアップを出力"
+  },
+  "qrAlt": {
+    "message": "シークレットを含む MFA アカウントの QR コード"
+  },
+  "qrWarning": {
+    "message": "この QR コードにはシークレットが含まれます。他人と共有しないでください。"
+  },
+  "deleteQuestion": {
+    "message": "「{title}」を削除しますか？"
+  },
+  "deleteWarning": {
+    "message": "元に戻せません。バックアップをご確認ください。"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "unnamed": {
+    "message": "名前のないアカウント"
+  },
+  "operationFailed": {
+    "message": "操作に失敗しました。もう一度お試しください。"
+  },
+  "loadFailed": {
+    "message": "読み込めませんでした。再試行してください。既存データは変更されていません。"
+  },
+  "importResult": {
+    "message": "{added} 件を追加"
+  },
+  "importSkipped": {
+    "message": "、重複 {skipped} 件をスキップ"
+  },
+  "updated": {
+    "message": "アカウントを更新しました"
+  },
+  "fileTooLarge": {
+    "message": "2 MB 未満のバックアップを選択してください"
+  },
+  "exported": {
+    "message": "バックアップを出力しました"
+  },
+  "renameFailed": {
+    "message": "名前を保存できませんでした。再試行してください。"
+  },
+  "copied": {
+    "message": "コードをコピーしました"
+  },
+  "clipboardFailed": {
+    "message": "クリップボードを利用できません。このコードをコピーしてください：{code}"
+  },
+  "deleted": {
+    "message": "アカウントを削除しました"
+  },
+  "name": {
+    "message": "名前"
+  },
+  "namePlaceholder": {
+    "message": "例：GitHub · 仕事用"
+  },
+  "secretOrUri": {
+    "message": "シークレットまたは otpauth URI"
+  },
+  "secretPlaceholder": {
+    "message": "Base32 シークレットを入力"
+  },
+  "hideSecret": {
+    "message": "シークレットを隠す"
+  },
+  "showSecret": {
+    "message": "シークレットを表示"
+  },
+  "advanced": {
+    "message": "詳細設定"
+  },
+  "algorithm": {
+    "message": "アルゴリズム"
+  },
+  "digits": {
+    "message": "桁数"
+  },
+  "digitsOption": {
+    "message": "{count} 桁"
+  },
+  "period": {
+    "message": "周期（秒）"
+  },
+  "saveChanges": {
+    "message": "変更を保存"
+  },
+  "saveAccount": {
+    "message": "アカウントを保存"
+  },
+  "confirmEdit": {
+    "message": "変更の確認"
+  },
+  "confirmEditHint": {
+    "message": "{fields} を変更しました。認証コードに影響する可能性があります。保存しますか？"
+  },
+  "backToEdit": {
+    "message": "編集に戻る"
+  },
+  "confirmSave": {
+    "message": "変更を確定"
+  },
+  "secret": {
+    "message": "シークレット"
+  },
+  "algorithmSetting": {
+    "message": "アルゴリズム"
+  },
+  "digitsSetting": {
+    "message": "コードの桁数"
+  },
+  "periodSetting": {
+    "message": "更新周期"
+  },
+  "listSeparator": {
+    "message": "・"
+  },
+  "enterName": {
+    "message": "アカウント名を入力"
+  },
+  "confirmName": {
+    "message": "名前を保存"
+  },
+  "confirmNameHint": {
+    "message": "名前を保存（Enter）"
+  },
+  "undoName": {
+    "message": "名前の変更を取り消す"
+  },
+  "undoNameHint": {
+    "message": "変更を取り消す（Esc）"
+  },
+  "search": {
+    "message": "アカウントを検索"
+  },
+  "accountList": {
+    "message": "MFA アカウント一覧"
+  },
+  "sortLabel": {
+    "message": "ドラッグ、または上下キーで並べ替え"
+  },
+  "sortHint": {
+    "message": "ドラッグで並べ替え · 矢印キーも使用可能"
+  },
+  "rowName": {
+    "message": "アカウント {index} の名前"
+  },
+  "copyCode": {
+    "message": "{title} のコードをコピー"
+  },
+  "copyHint": {
+    "message": "クリックでコピー、またはコードをドラッグ"
+  },
+  "accountOptions": {
+    "message": "アカウントの操作"
+  },
+  "noMatches": {
+    "message": "該当するアカウントがありません"
+  },
+  "viewQr": {
+    "message": "QR コードを表示"
+  },
+  "secretRequired": {
+    "message": "Base32 シークレットを入力してください"
+  },
+  "invalidSecret": {
+    "message": "有効な Base32 文字（A–Z、2–7）を使用してください"
+  },
+  "invalidSecretEnd": {
+    "message": "Base32 の末尾が無効です。シークレットが完全か確認してください。"
+  },
+  "titleRequired": {
+    "message": "アカウント名を入力してください"
+  },
+  "invalidAccount": {
+    "message": "アカウントの形式が無効です"
+  },
+  "invalidTitle": {
+    "message": "名前は 200 文字以内のテキストにしてください"
+  },
+  "invalidAlgorithm": {
+    "message": "未対応のアルゴリズムです"
+  },
+  "invalidDigits": {
+    "message": "コードは 6 桁または 8 桁にしてください"
+  },
+  "invalidPeriod": {
+    "message": "周期は 1～3600 秒にしてください"
+  },
+  "invalidUri": {
+    "message": "無効な otpauth URI です"
+  },
+  "totpOnly": {
+    "message": "時間ベースの TOTP のみに対応しています"
+  },
+  "invalidNameEncoding": {
+    "message": "アカウント名のエンコードが無効です"
+  },
+  "listRequired": {
+    "message": "バックアップには list 配列が必要です"
+  },
+  "invalidVersion": {
+    "message": "未対応のバックアップバージョンです"
+  },
+  "accountError": {
+    "message": "アカウント {index}：{message}"
+  },
+  "invalidExport": {
+    "message": "未対応の出力形式です"
+  },
+  "yamlValue": {
+    "message": "無効な YAML 値です。この拡張機能のバックアップを使用してください。"
+  },
+  "yamlVersion": {
+    "message": "YAML の version フィールドが重複しています"
+  },
+  "yamlList": {
+    "message": "YAML の list フィールドが重複しています"
+  },
+  "yamlMissingList": {
+    "message": "YAML に list フィールドがありません"
+  },
+  "yamlFields": {
+    "message": "YAML のアカウントフィールドが無効または重複しています"
+  },
+  "yamlStructure": {
+    "message": "無効な YAML 構造です。この拡張機能のバックアップを使用してください。"
+  },
+  "xmlEntities": {
+    "message": "XML に DTD やエンティティ宣言は使用できません"
+  },
+  "xmlFormat": {
+    "message": "XML の形式またはバージョンが無効です"
+  },
+  "xmlNode": {
+    "message": "不明な XML ノードです"
+  },
+  "xmlFields": {
+    "message": "XML のアカウントフィールドが無効です"
+  },
+  "invalidBackup": {
+    "message": "有効な JSON・YAML・XML バックアップを選択してください"
+  },
+  "notReady": {
+    "message": "読み込み中です。少し待って再試行してください。"
+  },
+  "accountMissing": {
+    "message": "アカウントは存在しません。開き直してください。"
+  },
+  "duplicateSecret": {
+    "message": "同じシークレットのアカウントが既に存在します"
+  },
+  "qrImageRequired": {
+    "message": "QR コード画像を選択してください"
+  },
+  "imageTooLarge": {
+    "message": "画像が大きすぎます。QR コード部分を切り抜いて再試行してください。"
+  },
+  "qrNotFound": {
+    "message": "QR コードが見つかりません。鮮明な元画像を使用してください。"
+  },
+  "imageReadFailed": {
+    "message": "画像を読み込めません。有効な QR 画像を選択してください。"
+  },
+  "menuFailed": {
+    "message": "MFA メニューを更新できませんでした"
+  },
+  "autofillFailed": {
+    "message": "MFA 自動入力に失敗しました"
+  },
+  "editAccount": {
+    "message": "アカウントを編集"
+  },
+  "storageMaintenancePending": {
+    "message": "保存形式の更新または整理が完了していません。データは保持され、閲覧・出力できます。保存時に再試行します。"
+  },
+  "storageChanged": {
+    "message": "別の場所でアカウントが更新されました。再試行してください。"
+  }
+}

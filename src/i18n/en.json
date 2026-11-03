@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "A lightweight MFA authenticator with QR setup, manual entry, backups and context-menu autofill."
+  },
+  "add": {
+    "message": "Add"
+  },
+  "addTitle": {
+    "message": "Add MFA account"
+  },
+  "editTitle": {
+    "message": "Edit MFA account"
+  },
+  "exportTitle": {
+    "message": "Export accounts"
+  },
+  "qrTitle": {
+    "message": "MFA QR code"
+  },
+  "deleteTitle": {
+    "message": "Delete account"
+  },
+  "manage": {
+    "message": "Manage accounts"
+  },
+  "more": {
+    "message": "More options"
+  },
+  "reload": {
+    "message": "Reload"
+  },
+  "loading": {
+    "message": "Loading accounts…"
+  },
+  "emptyTitle": {
+    "message": "No MFA accounts yet"
+  },
+  "emptyHint": {
+    "message": "Add a QR code or enter a secret"
+  },
+  "backupActions": {
+    "message": "Backup options"
+  },
+  "importTitle": {
+    "message": "Import accounts"
+  },
+  "closeNotice": {
+    "message": "Dismiss notification"
+  },
+  "processing": {
+    "message": "Working…"
+  },
+  "dropQr": {
+    "message": "Drop to add QR accounts"
+  },
+  "qrActions": {
+    "message": "QR code options"
+  },
+  "saveQr": {
+    "message": "Save QR code"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "chooseQr": {
+    "message": "Choose QR images"
+  },
+  "chooseQrHint": {
+    "message": "Paste screenshots, drop images, or select multiple files"
+  },
+  "manualDivider": {
+    "message": "or enter manually"
+  },
+  "exportHint": {
+    "message": "Back up {count} accounts in list order, ready to import later."
+  },
+  "fileFormat": {
+    "message": "File format"
+  },
+  "exportWarning": {
+    "message": "Backups contain unencrypted secrets. Keep them somewhere safe."
+  },
+  "exportBackup": {
+    "message": "Export backup"
+  },
+  "qrAlt": {
+    "message": "MFA account QR code containing the secret"
+  },
+  "qrWarning": {
+    "message": "This QR code contains a secret. Keep it private."
+  },
+  "deleteQuestion": {
+    "message": "Delete “{title}”?"
+  },
+  "deleteWarning": {
+    "message": "This cannot be undone. Make sure you have a backup."
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "unnamed": {
+    "message": "Unnamed account"
+  },
+  "operationFailed": {
+    "message": "Something went wrong. Please try again."
+  },
+  "loadFailed": {
+    "message": "Could not load accounts. Try again; existing data is unchanged."
+  },
+  "importResult": {
+    "message": "Added {added} account(s)"
+  },
+  "importSkipped": {
+    "message": "; skipped {skipped} duplicate(s)"
+  },
+  "updated": {
+    "message": "Account updated"
+  },
+  "fileTooLarge": {
+    "message": "Choose a backup smaller than 2 MB"
+  },
+  "exported": {
+    "message": "Backup exported"
+  },
+  "renameFailed": {
+    "message": "Could not save the name. Please try again."
+  },
+  "copied": {
+    "message": "Code copied"
+  },
+  "clipboardFailed": {
+    "message": "Clipboard unavailable. Copy this code: {code}"
+  },
+  "deleted": {
+    "message": "Account deleted"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "namePlaceholder": {
+    "message": "e.g. GitHub · Work"
+  },
+  "secretOrUri": {
+    "message": "Secret or otpauth URI"
+  },
+  "secretPlaceholder": {
+    "message": "Enter a Base32 secret"
+  },
+  "hideSecret": {
+    "message": "Hide secret"
+  },
+  "showSecret": {
+    "message": "Show secret"
+  },
+  "advanced": {
+    "message": "Advanced settings"
+  },
+  "algorithm": {
+    "message": "Algorithm"
+  },
+  "digits": {
+    "message": "Digits"
+  },
+  "digitsOption": {
+    "message": "{count} digits"
+  },
+  "period": {
+    "message": "Period (seconds)"
+  },
+  "saveChanges": {
+    "message": "Save changes"
+  },
+  "saveAccount": {
+    "message": "Save account"
+  },
+  "confirmEdit": {
+    "message": "Confirm account changes"
+  },
+  "confirmEditHint": {
+    "message": "You changed {fields}, which may affect verification codes. Save these changes?"
+  },
+  "backToEdit": {
+    "message": "Back to editing"
+  },
+  "confirmSave": {
+    "message": "Confirm changes"
+  },
+  "secret": {
+    "message": "secret"
+  },
+  "algorithmSetting": {
+    "message": "algorithm"
+  },
+  "digitsSetting": {
+    "message": "code length"
+  },
+  "periodSetting": {
+    "message": "refresh period"
+  },
+  "listSeparator": {
+    "message": ", "
+  },
+  "enterName": {
+    "message": "Enter an account name"
+  },
+  "confirmName": {
+    "message": "Save name"
+  },
+  "confirmNameHint": {
+    "message": "Save name (Enter)"
+  },
+  "undoName": {
+    "message": "Undo name changes"
+  },
+  "undoNameHint": {
+    "message": "Undo changes (Esc)"
+  },
+  "search": {
+    "message": "Search accounts"
+  },
+  "accountList": {
+    "message": "MFA accounts"
+  },
+  "sortLabel": {
+    "message": "Drag to reorder, or use the up and down arrow keys"
+  },
+  "sortHint": {
+    "message": "Drag to reorder · arrow keys also work"
+  },
+  "rowName": {
+    "message": "Account {index} name"
+  },
+  "copyCode": {
+    "message": "Copy the code for {title}"
+  },
+  "copyHint": {
+    "message": "Click to copy, or drag the code out"
+  },
+  "accountOptions": {
+    "message": "Account options"
+  },
+  "noMatches": {
+    "message": "No matching accounts"
+  },
+  "viewQr": {
+    "message": "View QR code"
+  },
+  "secretRequired": {
+    "message": "Enter a Base32 secret"
+  },
+  "invalidSecret": {
+    "message": "Use a valid Base32 secret (A–Z, 2–7)"
+  },
+  "invalidSecretEnd": {
+    "message": "Invalid Base32 ending. Check that the secret is complete."
+  },
+  "titleRequired": {
+    "message": "Enter an account name"
+  },
+  "invalidAccount": {
+    "message": "Invalid account format"
+  },
+  "invalidTitle": {
+    "message": "The name must be text with at most 200 characters"
+  },
+  "invalidAlgorithm": {
+    "message": "Unsupported algorithm"
+  },
+  "invalidDigits": {
+    "message": "Codes must have 6 or 8 digits"
+  },
+  "invalidPeriod": {
+    "message": "The period must be 1–3600 seconds"
+  },
+  "invalidUri": {
+    "message": "Invalid otpauth URI"
+  },
+  "totpOnly": {
+    "message": "Only time-based TOTP accounts are supported"
+  },
+  "invalidNameEncoding": {
+    "message": "Invalid account name encoding"
+  },
+  "listRequired": {
+    "message": "The backup must contain a list array"
+  },
+  "invalidVersion": {
+    "message": "Unsupported backup version"
+  },
+  "accountError": {
+    "message": "Account {index}: {message}"
+  },
+  "invalidExport": {
+    "message": "Unsupported export format"
+  },
+  "yamlValue": {
+    "message": "Invalid YAML value. Use a backup exported by this extension."
+  },
+  "yamlVersion": {
+    "message": "Duplicate YAML version field"
+  },
+  "yamlList": {
+    "message": "Duplicate YAML list field"
+  },
+  "yamlMissingList": {
+    "message": "Missing YAML list field"
+  },
+  "yamlFields": {
+    "message": "Invalid or duplicate YAML account field"
+  },
+  "yamlStructure": {
+    "message": "Invalid YAML structure. Use a backup exported by this extension."
+  },
+  "xmlEntities": {
+    "message": "XML must not contain DTD or entity declarations"
+  },
+  "xmlFormat": {
+    "message": "Invalid XML format or version"
+  },
+  "xmlNode": {
+    "message": "Unknown XML node"
+  },
+  "xmlFields": {
+    "message": "Invalid XML account field"
+  },
+  "invalidBackup": {
+    "message": "Choose a valid JSON, YAML or XML backup"
+  },
+  "notReady": {
+    "message": "Accounts are still loading. Please try again shortly."
+  },
+  "accountMissing": {
+    "message": "This account no longer exists. Open it again."
+  },
+  "duplicateSecret": {
+    "message": "An account with this secret already exists"
+  },
+  "qrImageRequired": {
+    "message": "Choose a QR code image"
+  },
+  "imageTooLarge": {
+    "message": "Image too large. Crop the QR code and try again."
+  },
+  "qrNotFound": {
+    "message": "No QR code found. Use a clear original image."
+  },
+  "imageReadFailed": {
+    "message": "Could not read the image. Choose a valid QR image."
+  },
+  "menuFailed": {
+    "message": "Could not update MFA menus"
+  },
+  "autofillFailed": {
+    "message": "MFA autofill failed"
+  },
+  "editAccount": {
+    "message": "Edit account"
+  },
+  "storageMaintenancePending": {
+    "message": "Storage maintenance could not finish. Your data is preserved; you can view or export it. Saving will retry."
+  },
+  "storageChanged": {
+    "message": "Accounts changed elsewhere. Please try again."
+  }
+}

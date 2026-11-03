@@ -1,44 +1,68 @@
-import OTP from 'otp'
+import { t } from '../i18n/index.js'
+import { generateCode } from '../domain/otp.js'
+import { createConfigStorage } from '../services/configStorage.js'
 
-const func = otp => {
-    let dom = document.activeElement
-    while (dom.tagName == 'IFRAME' || dom.tagName == 'FRAME') {
-        dom = dom.contentDocument.activeElement
+const storage = createConfigStorage()
+
+const fillInput = code => {
+    let element = document.activeElement
+    try {
+        while (element?.tagName === 'IFRAME' || element?.tagName === 'FRAME') element = element.contentDocument?.activeElement
+    } catch { return }
+    if (!element) return
+    if (element.isContentEditable) element.textContent = code
+    else {
+        // Native setter also notifies frameworks that track an input's current value.
+        const prototype = element.tagName === 'TEXTAREA' ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype
+        const setter = Object.getOwnPropertyDescriptor(prototype, 'value')?.set
+        if (!setter || !['INPUT', 'TEXTAREA'].includes(element.tagName)) return
+        setter.call(element, code)
     }
-    dom.value = otp
-    //部分框架双向数据绑定，直接设置元素的值还不行，需要触发一下 input 或者 change 事件
-    dom.dispatchEvent(new Event('input', { bubbles: true }))
-    dom.dispatchEvent(new Event('change', { bubbles: true }))
+    element.dispatchEvent(new Event('input', { bubbles: true }))
+    element.dispatchEvent(new Event('change', { bubbles: true }))
 }
 
-const initCtxMenu = async otps => {
-    await chrome.contextMenus.removeAll()
-    otps.forEach(async ({ id, title }) => {
-        title = title || `未命名_${Math.random().toString(26).substr(2).toUpperCase()}`
-        await chrome.contextMenus.create({
-            id,
-            title,
-            contexts: ['editable']
-        })
+let menuUpdate = Promise.resolve()
+function refreshMenus() {
+    menuUpdate = menuUpdate.catch(() => {}).then(async () => {
+        const { list } = await storage.load()
+        await chrome.contextMenus.removeAll()
+        const seen = new Set()
+        for (const account of list) {
+            if (seen.has(account.id)) continue
+            seen.add(account.id)
+            await new Promise((resolve, reject) => {
+                chrome.contextMenus.create({ id: account.id, title: account.title, contexts: ['editable'] }, () => {
+                    const error = chrome.runtime.lastError
+                    if (error) reject(new Error(error.message))
+                    else resolve()
+                })
+            })
+        }
     })
+    menuUpdate.catch(error => console.error(t('menuFailed'), error.message))
 }
-
-//更新otp配置之后刷新菜单
-chrome.storage.onChanged.addListener(async (changes, namespace) => {
-    const otps = await chrome.storage.sync.get()
-    await initCtxMenu(otps.list ?? [])
-});
-
-//初始化菜单
-chrome.storage.sync.get().then(async otps => {
-    await initCtxMenu(otps.list ?? [])
+chrome.storage.onChanged.addListener((changes, area) => { if (area === 'sync' && (changes.list || changes.version)) refreshMenus() })
+chrome.runtime.onInstalled.addListener(async () => {
+    try {
+        const { warning } = await storage.load({ migrate: true })
+        if (warning) console.warn(t('storageMaintenancePending'))
+    } catch (error) { console.error(t('storageMaintenancePending'), error.message) }
+    refreshMenus()
 })
+chrome.runtime.onStartup.addListener(refreshMenus)
+refreshMenus()
 
-//给右键菜单绑定事件
-chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.scripting.executeScript({
-        args: [new OTP({ secret: info.menuItemId }).totp()],
-        target: { tabId: tab.id },
-        func
-    })
+chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+    if (!tab?.id) return
+    try {
+        const { list } = await storage.load()
+        const account = list.find(item => item.id === info.menuItemId)
+        if (!account) return
+        await chrome.scripting.executeScript({
+            args: [await generateCode(account)],
+            target: { tabId: tab.id, ...(info.frameId !== undefined ? { frameIds: [info.frameId] } : {}) },
+            func: fillInput,
+        })
+    } catch (error) { console.error(t('autofillFailed'), error.message) }
 })

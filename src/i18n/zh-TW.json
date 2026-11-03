@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "輕量的 MFA 驗證器，支援二維碼、手動設定、備份與右鍵填入。"
+  },
+  "add": {
+    "message": "新增"
+  },
+  "addTitle": {
+    "message": "新增 MFA 設定"
+  },
+  "editTitle": {
+    "message": "編輯 MFA 設定"
+  },
+  "exportTitle": {
+    "message": "匯出設定"
+  },
+  "qrTitle": {
+    "message": "MFA 二維碼"
+  },
+  "deleteTitle": {
+    "message": "刪除設定"
+  },
+  "manage": {
+    "message": "管理設定"
+  },
+  "more": {
+    "message": "更多操作"
+  },
+  "reload": {
+    "message": "重新載入"
+  },
+  "loading": {
+    "message": "正在載入設定…"
+  },
+  "emptyTitle": {
+    "message": "暫無 MFA 設定"
+  },
+  "emptyHint": {
+    "message": "新增二維碼或手動輸入密鑰"
+  },
+  "backupActions": {
+    "message": "備份操作"
+  },
+  "importTitle": {
+    "message": "匯入設定"
+  },
+  "closeNotice": {
+    "message": "關閉提示"
+  },
+  "processing": {
+    "message": "正在處理…"
+  },
+  "dropQr": {
+    "message": "鬆開，新增二維碼設定"
+  },
+  "qrActions": {
+    "message": "二維碼操作"
+  },
+  "saveQr": {
+    "message": "儲存二維碼"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "chooseQr": {
+    "message": "選擇二維碼圖片"
+  },
+  "chooseQrHint": {
+    "message": "支援螢幕截圖貼上、圖片拖放和多圖新增"
+  },
+  "manualDivider": {
+    "message": "或手動輸入"
+  },
+  "exportHint": {
+    "message": "按目前清單順序備份 {count} 項設定，之後可直接匯入。"
+  },
+  "fileFormat": {
+    "message": "檔案格式"
+  },
+  "exportWarning": {
+    "message": "備份包含明文密鑰，請存放在安全的位置。"
+  },
+  "exportBackup": {
+    "message": "匯出備份"
+  },
+  "qrAlt": {
+    "message": "MFA 設定二維碼，包含帳號密鑰"
+  },
+  "qrWarning": {
+    "message": "此二維碼包含密鑰，請勿分享給他人。"
+  },
+  "deleteQuestion": {
+    "message": "確定刪除「{title}」？"
+  },
+  "deleteWarning": {
+    "message": "刪除後無法恢復，請確認已備份。"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "unnamed": {
+    "message": "未命名設定"
+  },
+  "operationFailed": {
+    "message": "操作失敗，請重試"
+  },
+  "loadFailed": {
+    "message": "設定載入失敗，請重試。原有資料未被修改。"
+  },
+  "importResult": {
+    "message": "已新增 {added} 項"
+  },
+  "importSkipped": {
+    "message": "，跳過 {skipped} 項重複設定"
+  },
+  "updated": {
+    "message": "設定已更新"
+  },
+  "fileTooLarge": {
+    "message": "備份檔案過大，請選擇小於 2 MB 的檔案"
+  },
+  "exported": {
+    "message": "備份已匯出"
+  },
+  "renameFailed": {
+    "message": "名稱儲存失敗，請重試"
+  },
+  "copied": {
+    "message": "驗證碼已複製"
+  },
+  "clipboardFailed": {
+    "message": "無法訪問剪貼簿，請手動複製：{code}"
+  },
+  "deleted": {
+    "message": "設定已刪除"
+  },
+  "name": {
+    "message": "名稱"
+  },
+  "namePlaceholder": {
+    "message": "例如 GitHub · 工作帳號"
+  },
+  "secretOrUri": {
+    "message": "密鑰或 otpauth 連結"
+  },
+  "secretPlaceholder": {
+    "message": "輸入 Base32 密鑰"
+  },
+  "hideSecret": {
+    "message": "隱藏密鑰"
+  },
+  "showSecret": {
+    "message": "顯示密鑰"
+  },
+  "advanced": {
+    "message": "進階設定"
+  },
+  "algorithm": {
+    "message": "演算法"
+  },
+  "digits": {
+    "message": "位數"
+  },
+  "digitsOption": {
+    "message": "{count} 位"
+  },
+  "period": {
+    "message": "週期（秒）"
+  },
+  "saveChanges": {
+    "message": "儲存修改"
+  },
+  "saveAccount": {
+    "message": "儲存設定"
+  },
+  "confirmEdit": {
+    "message": "確認修改驗證設定"
+  },
+  "confirmEditHint": {
+    "message": "此次修改涉及{fields}，可能影響驗證碼。確認儲存這些更改嗎？"
+  },
+  "backToEdit": {
+    "message": "返回編輯"
+  },
+  "confirmSave": {
+    "message": "確認儲存"
+  },
+  "secret": {
+    "message": "密鑰"
+  },
+  "algorithmSetting": {
+    "message": "演算法"
+  },
+  "digitsSetting": {
+    "message": "驗證碼位數"
+  },
+  "periodSetting": {
+    "message": "更新週期"
+  },
+  "listSeparator": {
+    "message": "、"
+  },
+  "enterName": {
+    "message": "請輸入設定名稱"
+  },
+  "confirmName": {
+    "message": "確認名稱"
+  },
+  "confirmNameHint": {
+    "message": "確認名稱（Enter）"
+  },
+  "undoName": {
+    "message": "復原名稱修改"
+  },
+  "undoNameHint": {
+    "message": "復原修改（Esc）"
+  },
+  "search": {
+    "message": "搜尋設定"
+  },
+  "accountList": {
+    "message": "MFA 設定清單"
+  },
+  "sortLabel": {
+    "message": "拖曳排序，或按上下方向鍵移動"
+  },
+  "sortHint": {
+    "message": "拖曳排序 · 方向鍵也可移動"
+  },
+  "rowName": {
+    "message": "第 {index} 項名稱"
+  },
+  "copyCode": {
+    "message": "複製 {title} 的驗證碼"
+  },
+  "copyHint": {
+    "message": "點擊複製，也可拖出驗證碼"
+  },
+  "accountOptions": {
+    "message": "設定操作"
+  },
+  "noMatches": {
+    "message": "沒有符合的設定"
+  },
+  "viewQr": {
+    "message": "查看二維碼"
+  },
+  "secretRequired": {
+    "message": "請輸入 Base32 密鑰"
+  },
+  "invalidSecret": {
+    "message": "密鑰須為有效的 Base32 字元（A–Z、2–7）"
+  },
+  "invalidSecretEnd": {
+    "message": "Base32 密鑰末尾無效，請檢查是否完整"
+  },
+  "titleRequired": {
+    "message": "請輸入設定名稱"
+  },
+  "invalidAccount": {
+    "message": "設定格式無效"
+  },
+  "invalidTitle": {
+    "message": "名稱須為不超過 200 字的文字"
+  },
+  "invalidAlgorithm": {
+    "message": "不支援此演算法"
+  },
+  "invalidDigits": {
+    "message": "驗證碼位數須為 6 或 8"
+  },
+  "invalidPeriod": {
+    "message": "更新週期須為 1–3600 秒"
+  },
+  "invalidUri": {
+    "message": "無效的 otpauth 連結"
+  },
+  "totpOnly": {
+    "message": "目前僅支援基於時間的 TOTP 設定"
+  },
+  "invalidNameEncoding": {
+    "message": "設定名稱編碼無效"
+  },
+  "listRequired": {
+    "message": "設定須包含 list 陣列"
+  },
+  "invalidVersion": {
+    "message": "不支援此備份版本"
+  },
+  "accountError": {
+    "message": "第 {index} 項：{message}"
+  },
+  "invalidExport": {
+    "message": "不支援此匯出格式"
+  },
+  "yamlValue": {
+    "message": "YAML 值無效，請使用此擴充功能匯出的備份格式"
+  },
+  "yamlVersion": {
+    "message": "YAML version 欄位重複"
+  },
+  "yamlList": {
+    "message": "YAML list 欄位重複"
+  },
+  "yamlMissingList": {
+    "message": "YAML 缺少 list 欄位"
+  },
+  "yamlFields": {
+    "message": "YAML 設定欄位無效或重複"
+  },
+  "yamlStructure": {
+    "message": "YAML 結構無效，請使用此擴充功能匯出的備份格式"
+  },
+  "xmlEntities": {
+    "message": "XML 不允許包含 DTD 或實體宣告"
+  },
+  "xmlFormat": {
+    "message": "XML 格式或版本無效"
+  },
+  "xmlNode": {
+    "message": "XML 包含未知節點"
+  },
+  "xmlFields": {
+    "message": "XML 設定欄位無效"
+  },
+  "invalidBackup": {
+    "message": "無法讀取設定，請選擇有效的 JSON、YAML 或 XML 備份"
+  },
+  "notReady": {
+    "message": "設定尚未載入，請稍後重試"
+  },
+  "accountMissing": {
+    "message": "設定已不存在，請重新開啟"
+  },
+  "duplicateSecret": {
+    "message": "已存在相同密鑰的設定"
+  },
+  "qrImageRequired": {
+    "message": "請選擇二維碼圖片"
+  },
+  "imageTooLarge": {
+    "message": "圖片過大，請裁剪二維碼後重試"
+  },
+  "qrNotFound": {
+    "message": "未辨識到二維碼，請使用清晰的原圖"
+  },
+  "imageReadFailed": {
+    "message": "無法讀取圖片，請選擇有效的二維碼圖片"
+  },
+  "menuFailed": {
+    "message": "更新 MFA 選單失敗"
+  },
+  "autofillFailed": {
+    "message": "MFA 自動填入失敗"
+  },
+  "editAccount": {
+    "message": "編輯設定"
+  },
+  "storageMaintenancePending": {
+    "message": "儲存升級或清理暫未完成，原設定已保留。可繼續查看或匯出，儲存時會重試。"
+  },
+  "storageChanged": {
+    "message": "設定已在其他位置更新，請重試。"
+  }
+}

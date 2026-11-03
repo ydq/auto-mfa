@@ -1,0 +1,371 @@
+{
+  "extensionName": {
+    "message": "AUTO-MFA"
+  },
+  "description": {
+    "message": "轻量的 MFA 验证器，支持二维码、手动配置、备份与右键填充。"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "addTitle": {
+    "message": "添加 MFA 配置"
+  },
+  "editTitle": {
+    "message": "编辑 MFA 配置"
+  },
+  "exportTitle": {
+    "message": "导出配置"
+  },
+  "qrTitle": {
+    "message": "MFA 二维码"
+  },
+  "deleteTitle": {
+    "message": "删除配置"
+  },
+  "manage": {
+    "message": "管理配置"
+  },
+  "more": {
+    "message": "更多操作"
+  },
+  "reload": {
+    "message": "重新载入"
+  },
+  "loading": {
+    "message": "正在载入配置…"
+  },
+  "emptyTitle": {
+    "message": "暂无 MFA 配置"
+  },
+  "emptyHint": {
+    "message": "添加二维码或手动输入密钥"
+  },
+  "backupActions": {
+    "message": "备份操作"
+  },
+  "importTitle": {
+    "message": "导入配置"
+  },
+  "closeNotice": {
+    "message": "关闭提示"
+  },
+  "processing": {
+    "message": "正在处理…"
+  },
+  "dropQr": {
+    "message": "松开，添加二维码配置"
+  },
+  "qrActions": {
+    "message": "二维码操作"
+  },
+  "saveQr": {
+    "message": "保存二维码"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "chooseQr": {
+    "message": "选择二维码图片"
+  },
+  "chooseQrHint": {
+    "message": "支持截图粘贴、图片拖放和多图添加"
+  },
+  "manualDivider": {
+    "message": "或手动输入"
+  },
+  "exportHint": {
+    "message": "按当前列表顺序备份 {count} 项配置，之后可直接导入。"
+  },
+  "fileFormat": {
+    "message": "文件格式"
+  },
+  "exportWarning": {
+    "message": "备份包含明文密钥，请存放在安全的位置。"
+  },
+  "exportBackup": {
+    "message": "导出备份"
+  },
+  "qrAlt": {
+    "message": "MFA 配置二维码，包含账号密钥"
+  },
+  "qrWarning": {
+    "message": "此二维码包含密钥，请勿分享给他人。"
+  },
+  "deleteQuestion": {
+    "message": "确定删除「{title}」？"
+  },
+  "deleteWarning": {
+    "message": "删除后无法恢复，请确认已备份。"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "unnamed": {
+    "message": "未命名配置"
+  },
+  "operationFailed": {
+    "message": "操作失败，请重试"
+  },
+  "loadFailed": {
+    "message": "配置载入失败，请重试。原有数据未被修改。"
+  },
+  "importResult": {
+    "message": "已添加 {added} 项"
+  },
+  "importSkipped": {
+    "message": "，跳过 {skipped} 项重复配置"
+  },
+  "updated": {
+    "message": "配置已更新"
+  },
+  "fileTooLarge": {
+    "message": "备份文件过大，请选择小于 2 MB 的文件"
+  },
+  "exported": {
+    "message": "备份已导出"
+  },
+  "renameFailed": {
+    "message": "名称保存失败，请重试"
+  },
+  "copied": {
+    "message": "验证码已复制"
+  },
+  "clipboardFailed": {
+    "message": "无法访问剪贴板，请手动复制：{code}"
+  },
+  "deleted": {
+    "message": "配置已删除"
+  },
+  "name": {
+    "message": "名称"
+  },
+  "namePlaceholder": {
+    "message": "例如 GitHub · 工作账号"
+  },
+  "secretOrUri": {
+    "message": "密钥或 otpauth 链接"
+  },
+  "secretPlaceholder": {
+    "message": "输入 Base32 密钥"
+  },
+  "hideSecret": {
+    "message": "隐藏密钥"
+  },
+  "showSecret": {
+    "message": "显示密钥"
+  },
+  "advanced": {
+    "message": "高级设置"
+  },
+  "algorithm": {
+    "message": "算法"
+  },
+  "digits": {
+    "message": "位数"
+  },
+  "digitsOption": {
+    "message": "{count} 位"
+  },
+  "period": {
+    "message": "周期（秒）"
+  },
+  "saveChanges": {
+    "message": "保存修改"
+  },
+  "saveAccount": {
+    "message": "保存配置"
+  },
+  "confirmEdit": {
+    "message": "确认修改验证配置"
+  },
+  "confirmEditHint": {
+    "message": "此次修改涉及{fields}，可能影响验证码。确认保存这些更改吗？"
+  },
+  "backToEdit": {
+    "message": "返回编辑"
+  },
+  "confirmSave": {
+    "message": "确认保存"
+  },
+  "secret": {
+    "message": "密钥"
+  },
+  "algorithmSetting": {
+    "message": "算法"
+  },
+  "digitsSetting": {
+    "message": "验证码位数"
+  },
+  "periodSetting": {
+    "message": "更新周期"
+  },
+  "listSeparator": {
+    "message": "、"
+  },
+  "enterName": {
+    "message": "请输入配置名称"
+  },
+  "confirmName": {
+    "message": "确认名称"
+  },
+  "confirmNameHint": {
+    "message": "确认名称（Enter）"
+  },
+  "undoName": {
+    "message": "撤销名称修改"
+  },
+  "undoNameHint": {
+    "message": "撤销修改（Esc）"
+  },
+  "search": {
+    "message": "搜索配置"
+  },
+  "accountList": {
+    "message": "MFA 配置列表"
+  },
+  "sortLabel": {
+    "message": "拖拽排序，或按上下方向键移动"
+  },
+  "sortHint": {
+    "message": "拖拽排序 · 方向键也可移动"
+  },
+  "rowName": {
+    "message": "第 {index} 项名称"
+  },
+  "copyCode": {
+    "message": "复制 {title} 的验证码"
+  },
+  "copyHint": {
+    "message": "点击复制，也可拖出验证码"
+  },
+  "accountOptions": {
+    "message": "配置操作"
+  },
+  "noMatches": {
+    "message": "没有匹配的配置"
+  },
+  "viewQr": {
+    "message": "查看二维码"
+  },
+  "secretRequired": {
+    "message": "请输入 Base32 密钥"
+  },
+  "invalidSecret": {
+    "message": "密钥须为有效的 Base32 字符（A–Z、2–7）"
+  },
+  "invalidSecretEnd": {
+    "message": "Base32 密钥末尾无效，请检查是否完整"
+  },
+  "titleRequired": {
+    "message": "请输入配置名称"
+  },
+  "invalidAccount": {
+    "message": "配置格式无效"
+  },
+  "invalidTitle": {
+    "message": "名称须为不超过 200 字的文本"
+  },
+  "invalidAlgorithm": {
+    "message": "不支持此算法"
+  },
+  "invalidDigits": {
+    "message": "验证码位数须为 6 或 8"
+  },
+  "invalidPeriod": {
+    "message": "更新周期须为 1–3600 秒"
+  },
+  "invalidUri": {
+    "message": "无效的 otpauth 链接"
+  },
+  "totpOnly": {
+    "message": "目前仅支持基于时间的 TOTP 配置"
+  },
+  "invalidNameEncoding": {
+    "message": "配置名称编码无效"
+  },
+  "listRequired": {
+    "message": "配置须包含 list 数组"
+  },
+  "invalidVersion": {
+    "message": "不支持此备份版本"
+  },
+  "accountError": {
+    "message": "第 {index} 项：{message}"
+  },
+  "invalidExport": {
+    "message": "不支持此导出格式"
+  },
+  "yamlValue": {
+    "message": "YAML 值无效，请使用本扩展导出的备份格式"
+  },
+  "yamlVersion": {
+    "message": "YAML version 字段重复"
+  },
+  "yamlList": {
+    "message": "YAML list 字段重复"
+  },
+  "yamlMissingList": {
+    "message": "YAML 缺少 list 字段"
+  },
+  "yamlFields": {
+    "message": "YAML 配置字段无效或重复"
+  },
+  "yamlStructure": {
+    "message": "YAML 结构无效，请使用本扩展导出的备份格式"
+  },
+  "xmlEntities": {
+    "message": "XML 不允许包含 DTD 或实体声明"
+  },
+  "xmlFormat": {
+    "message": "XML 格式或版本无效"
+  },
+  "xmlNode": {
+    "message": "XML 包含未知节点"
+  },
+  "xmlFields": {
+    "message": "XML 配置字段无效"
+  },
+  "invalidBackup": {
+    "message": "无法读取配置，请选择有效的 JSON、YAML 或 XML 备份"
+  },
+  "notReady": {
+    "message": "配置尚未载入，请稍后重试"
+  },
+  "accountMissing": {
+    "message": "配置已不存在，请重新打开"
+  },
+  "duplicateSecret": {
+    "message": "已存在相同密钥的配置"
+  },
+  "qrImageRequired": {
+    "message": "请选择二维码图片"
+  },
+  "imageTooLarge": {
+    "message": "图片过大，请裁剪二维码后重试"
+  },
+  "qrNotFound": {
+    "message": "未识别到二维码，请使用清晰的原图"
+  },
+  "imageReadFailed": {
+    "message": "无法读取图片，请选择有效的二维码图片"
+  },
+  "menuFailed": {
+    "message": "更新 MFA 菜单失败"
+  },
+  "autofillFailed": {
+    "message": "MFA 自动填充失败"
+  },
+  "editAccount": {
+    "message": "编辑配置"
+  },
+  "storageMaintenancePending": {
+    "message": "存储升级或清理暂未完成，原配置已保留。可继续查看或导出，保存时会重试。"
+  },
+  "storageChanged": {
+    "message": "配置已在其他位置更新，请重试。"
+  }
+}
